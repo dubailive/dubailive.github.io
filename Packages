@@ -1,0 +1,15 @@
+Package: com.dubailive.icons
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer:  dubailive  <dubailive1@gmail.com>
+Filename: ./debs/com.dubailive.icons_1.0_iphoneos-arm.deb
+Size: 16294
+MD5sum: aadfff59564284f0c22cb636f7cf0a4e
+SHA1: c13be0b45adb79cd0b4d6df64d14da2765b92dd7
+SHA256: 4044a395f46079d3be248ffe09924640552f80c27fecfd324ab5085c1cec17f1
+Section: Tweaks
+Description: Adds Icon Images
+Author:  dubailive 
+Depiction: https://github.com/dubailive/dubailive.github.io
+Name: icons
+

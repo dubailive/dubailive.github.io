@@ -1,0 +1,9 @@
+Architecture: iphoneos-arm
+Author:  dubailive 
+Depiction: https://github.com/dubailive/dubailive.github.io
+Description: Adds Icon Images
+Maintainer:  dubailive  <dubailive1@gmail.com>
+Name: icons
+Package: com.dubailive.icons
+Section: Tweaks
+Version: 1.0

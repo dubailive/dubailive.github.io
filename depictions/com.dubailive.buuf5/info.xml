@@ -1,0 +1,32 @@
+<package>
+	<id>com.dubailive.buuf5</id>
+	<name>buuf5</name>
+	<version>1.0.</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+      <maxiOS>9.0+</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>iWidgets, IS2</package>
+	</dependencies>
+	<descriptionlist>
+		<description>dubs iW Buuf5</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>dubs iW Buuf5</description>
+			<image>ss.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links>
+		<link>
+			<name>YouTube Video buuf5</name>
+			<url>https://www.youtube.com/watch?v=dlcmnTtTJJg</url>
+		</link>
+	</links>
+</package>

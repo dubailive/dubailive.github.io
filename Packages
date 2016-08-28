@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.buuf1_1.0_iphoneos-arm.deb
 Size: 4401710
-MD5sum: a0b33482d50b355a804e1f7cc24cf6bf
-SHA1: 97ba5022c18195fc82951755e63e86d0f8ff4331
-SHA256: 3055d24dc09d67f26f8eac3f65ce2b315a58f1c0b681cfcbbbde6b723ed81477
+MD5sum: b2415b8e2327e641de567554bad69c31
+SHA1: ba8e8d13a1b6f4b81c3323a415c9be89d935c498
+SHA256: 3b4beda8903a71d29117910cca535925004f2205e2595843ef30f59e0b23598f
 Section: Widgets
 Description: dubs iW buuf1
 Author:  dubailive 
@@ -20,9 +20,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.buuf3_1.0_iphoneos-arm.deb
 Size: 11168734
-MD5sum: b14282aae8262fb871b23e46672e47dc
-SHA1: b79750e17197917fedbc167ca4d74be290cfbe30
-SHA256: 28f6d07b406748a5fb65b5a8cd739d415b1de640a124f96a78c1164845d40e7c
+MD5sum: 00bac904bb5c4f25fe16a56dc9d77fbd
+SHA1: 9b0b1d83a3c236469b0ce8bf4ca69b2232ba9eb5
+SHA256: 5dc4e0df2a2c2636d9b881fe7b639059a933f5a4b491b521caac3841ef9293f0
 Section: Widgets
 Description: dubs iW buuf3
 Author:  dubailive 
@@ -30,15 +30,31 @@ Dependency: iWidgets, IS2
 Depiction: https://dubailive.github.io/depictions/?p=com.dubailive.buuf3
 Name: dubs iW buuf3
 
+Package: com.dubailive.buuf4
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer:  dubailive  <dubailive1@gmail.com>
+Filename: ./debs/com.dubailive.buuf4_1.0_iphoneos-arm.deb
+Size: 1502288
+MD5sum: 68fd5d0e767ed345e3968282291b93a2
+SHA1: baa5696b1cf5c6907ed7f1b0c7161a5048e3cb2e
+SHA256: 09e21bc1908576185d791ebfd6f2227190c5b2526fa9c1b874949dd753cd840d
+Section: Widgets
+Description: dubs iW buuf4
+Author:  dubailive 
+Dependency: iWidgets, IS2
+Depiction: https://dubailive.github.io/depictions/?p=com.dubailive.buuf4
+Name: dubs iW buuf4
+
 Package: com.dubailive.dubsiWbuuf2
 Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.dubsiwbuuf2_1.0.1_iphoneos-arm.deb
 Size: 432434
-MD5sum: 423b23cc945f2f36c044924502724909
-SHA1: afc589c092bf39c2672db765cba3e79870178b51
-SHA256: 1c8fb4b05a6fc6fcce4f0be5806111c02648dee3671849201e0613494eed6974
+MD5sum: c049ca4e7caadccad4ff5834d5e0c6ea
+SHA1: d66623709a76b1ed3e98cc1765272cd2d0fc4b7a
+SHA256: 6d8840d2a5081a348d8be91bd083f6c00de6046900e8a38c1ec047da87f51595
 Section: Widgets
 Description: dubs iW buuf2
 Author:  dubailive 

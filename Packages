@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.buuf1_1.0_iphoneos-arm.deb
 Size: 4401710
-MD5sum: b5c8bdfc498dfcb2950bc6e76730fa93
-SHA1: e7a99c263a19c8e9a42652d65fb416a59af18c79
-SHA256: 8c33b1026e132ca4e2dbacc974b2c2297679fd10566fb2408ba3c1cea42aaf31
+MD5sum: a0b33482d50b355a804e1f7cc24cf6bf
+SHA1: 97ba5022c18195fc82951755e63e86d0f8ff4331
+SHA256: 3055d24dc09d67f26f8eac3f65ce2b315a58f1c0b681cfcbbbde6b723ed81477
 Section: Widgets
 Description: dubs iW buuf1
 Author:  dubailive 
@@ -19,10 +19,10 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.buuf3_1.0_iphoneos-arm.deb
-Size: 11168574
-MD5sum: bb92ba3610527b61433db494c39707e3
-SHA1: 17997442cf12614aae9f3ed6b9286fde75196f4b
-SHA256: 481aef2beebf52ca31506c6b0b4f938346d91eafeb0b228d90e2df6c80988116
+Size: 11168734
+MD5sum: b14282aae8262fb871b23e46672e47dc
+SHA1: b79750e17197917fedbc167ca4d74be290cfbe30
+SHA256: 28f6d07b406748a5fb65b5a8cd739d415b1de640a124f96a78c1164845d40e7c
 Section: Widgets
 Description: dubs iW buuf3
 Author:  dubailive 
@@ -36,28 +36,13 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.dubsiwbuuf2_1.0.1_iphoneos-arm.deb
 Size: 432434
-MD5sum: 8933c8edc24a6265b959ff42a0e51dea
-SHA1: 3d2a3c421fc0ef7271e914f31aed3903894345aa
-SHA256: cb252fb254dd85c4558d69aa80c091c608f34445ecb1fe56058d7db72617cc3b
+MD5sum: 423b23cc945f2f36c044924502724909
+SHA1: afc589c092bf39c2672db765cba3e79870178b51
+SHA256: 1c8fb4b05a6fc6fcce4f0be5806111c02648dee3671849201e0613494eed6974
 Section: Widgets
 Description: dubs iW buuf2
 Author:  dubailive 
 Dependency: iWidgets, IS2
 Depiction: https://dubailive.github.io/depictions/?p=com.dubailive.dubsiWbuuf2
 Name: dubs iW buuf2
-
-Package: com.dubailive.icons
-Version: 1.0.1
-Architecture: iphoneos-arm
-Maintainer:  dubailive  <dubailive1@gmail.com>
-Filename: ./debs/com.dubailive.icons_1.0.1_iphoneos-arm.deb
-Size: 16302
-MD5sum: d679abae0e8a2cd9ea681936074de15b
-SHA1: 9b612c08883d24b6295be2bdf3f1685e62a3d366
-SHA256: cc506d5571ffebe5ce43f0d61248de38811193e6cff53925773468f8d239e07a
-Section: Tweaks
-Description: Adds Icon Images
-Author:  dubailive 
-Depiction: https://dubailive.github.io/depictions/?p=com.dubailive.icons
-Name: icons
 

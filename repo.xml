@@ -1,0 +1,19 @@
+<repo>
+	<footerlinks>
+		<link>
+			<name>My Website</name>
+			<url>http://www.dubailive.space</url>
+			<iconclass>glyphicon glyphicon-thumbs-up</iconclass>
+		</link>
+		<link>
+			<name>Twitter</name>
+			<url>https://twitter.com/dubailive1</url>
+			<iconclass>glyphicon glyphicon-thumbs-up</iconclass>
+		</link>
+		<link>
+			<name>Repo</name>
+			<url>https://dubailive.github.io/</url>
+			<iconclass>glyphicon glyphicon-thumbs-up</iconclass>
+		</link>
+	</footerlinks>
+</repo>

@@ -9,14 +9,14 @@
 		</firmware>
 	</compatibility>
 	<dependencies>
-		<package></package>
+		<package>iWidgets, IS2</package>
 	</dependencies>
 	<descriptionlist>
 		<description>This is iW buuf2</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>
-			<description>Widgets</description>
+			<description>dubs iW buuf2</description>
 			<image>buff2.png</image>
 		</screenshot>
 	</screenshots>

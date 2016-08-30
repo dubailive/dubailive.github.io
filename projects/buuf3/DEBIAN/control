@@ -6,5 +6,5 @@ Maintainer:  dubailive  <dubailive1@gmail.com>
 Name: dubs iW buuf3
 Package: com.dubailive.buuf3
 Section: Widgets
-Dependency: iWidgets, IS2
+Dependency: com.eldwin.iwidgets, com.matchstic.infostats2,
 Version: 1.0

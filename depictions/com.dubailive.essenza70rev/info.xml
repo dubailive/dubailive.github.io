@@ -1,0 +1,28 @@
+<package>
+	<id>com.dubailive.essenza70rev</id>
+	<name>essenza70_rev</name>
+	<version>1.0.</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+      <maxiOS>9.0+</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>com.eldwin.iwidgets, com.matchstic.infostats2</package>
+	</dependencies>
+	<descriptionlist>
+		<description>essenza70rev</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>essenza70rev</description>
+			<image>ss.png</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+	<links>
+	</links>
+</package>

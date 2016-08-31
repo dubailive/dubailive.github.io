@@ -1,2 +1,2 @@
-# http://www.dubs.live/repo/
+# https://dubailive.github.io/
 iOS Mods

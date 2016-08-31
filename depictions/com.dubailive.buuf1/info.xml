@@ -28,9 +28,5 @@
 			<name>Twitter</name>
 			<url>https://twitter.com/dubailive1</url>
 		</link>
-		<link>
-			<name>Repo</name>
-			<url>http://www.dubs.live/repo</url>
-		</link>
 	</links>
 </package>

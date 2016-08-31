@@ -1,10 +1,10 @@
 Architecture: iphoneos-arm
 Author:  dubailive 
-Depiction: http://www.dubs.live/repo/depictions/?p=com.dubailive.essenza70_rev
-Description: dubs iW essenza70_rev
+Depiction: https://dubailive.github.io/depictions/?p=com.dubailive.essenza70rev
+Description: dubs iW essenza70rev
 Maintainer:  dubailive  <dubailive1@gmail.com>
-Name: dubs iW essenza70_rev
-Package: com.dubailive.essenza70_rev
+Name: dubs iW essenza70rev
+Package: com.dubailive.essenza70rev
 Section: Widgets
 Dependency: com.eldwin.iwidgets, com.matchstic.infostats2,
 Version: 1.0

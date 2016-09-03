@@ -8,3 +8,4 @@ dpkg-deb -bZgzip projects/buuf6 debs
 dpkg-deb -bZgzip projects/essenza70rev debs
 dpkg-deb -bZgzip projects/essenza162 debs
 dpkg-deb -bZgzip projects/buuf7 debs
+dpkg-deb -bZgzip projects/essenza163 debs

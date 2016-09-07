@@ -12,3 +12,4 @@ dpkg-deb -bZgzip projects/essenza163 debs
 dpkg-deb -bZgzip projects/essenza164 debs
 dpkg-deb -bZgzip projects/essenza165 debs
 dpkg-deb -bZgzip projects/dubsIS2e166 debs
+dpkg-deb -bZgzip projects/dubsIS2e167TouchForecast debs

@@ -17,3 +17,4 @@ dpkg-deb -bZgzip projects/dubsIS2e168TouchForecast debs
 dpkg-deb -bZgzip projects/dubsIS2buuf8 debs
 dpkg-deb -bZgzip projects/dubsIS2e169TouchForecast debs
 dpkg-deb -bZgzip projects/dubsIS2buuf9 debs
+dpkg-deb -bZgzip projects/dubsIS2buuf10-LS debs

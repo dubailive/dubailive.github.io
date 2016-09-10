@@ -21,3 +21,4 @@ dpkg-deb -bZgzip projects/dubsIS2buuf10-LS debs
 dpkg-deb -bZgzip projects/essenza170 debs
 dpkg-deb -bZgzip projects/essenza171 debs
 dpkg-deb -bZgzip projects/essenza172 debs
+dpkg-deb -bZgzip projects/essenza173 debs

@@ -1,6 +1,6 @@
 <changelog>
 	<changes>
-		<version>1.0</version>
-		<change>Initial Release</change>
+		<version>1.0.1</version>
+		<change>Fixed Date, release 1.0 date was not updating</change>
 	</changes>
 </changelog>

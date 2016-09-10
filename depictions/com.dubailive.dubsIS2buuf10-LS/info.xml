@@ -1,7 +1,7 @@
 <package>
 	<id>com.dubailive.dubsIS2buuf10-LS</id>
 	<name>dubsIS2buuf10-LS</name>
-	<version>1.0.</version>
+	<version>1.0.1</version>
 	<compatibility>
 		<firmware>
 			<miniOS>7.0</miniOS>

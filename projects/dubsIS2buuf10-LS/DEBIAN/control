@@ -7,4 +7,4 @@ Name: dubsIS2buuf10-LS
 Package: com.dubailive.dubsIS2buuf10-LS
 Section: Widgets
 Dependency: com.eldwin.iwidgets, com.matchstic.infostats2
-Version: 1.0
+Version: 1.0.1

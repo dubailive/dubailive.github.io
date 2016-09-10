@@ -12,7 +12,7 @@
 		<package>com.eldwin.iwidgets</package>
 	</dependencies>
 	<descriptionlist>
-		<description>Vintage Style, Weather info from www.weather.com or turn gps=true for WidgetWeather in config.js</description>
+		<description>Vintage Style Widget</description>
 	</descriptionlist>
 	<screenshots>
 		<screenshot>

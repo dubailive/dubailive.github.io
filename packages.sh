@@ -19,3 +19,4 @@ dpkg-deb -bZgzip projects/dubsIS2e169TouchForecast debs
 dpkg-deb -bZgzip projects/dubsIS2buuf9 debs
 dpkg-deb -bZgzip projects/dubsIS2buuf10-LS debs
 dpkg-deb -bZgzip projects/essenza170 debs
+dpkg-deb -bZgzip projects/essenza171 debs

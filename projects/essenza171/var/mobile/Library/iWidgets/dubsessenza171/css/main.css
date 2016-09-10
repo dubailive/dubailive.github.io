@@ -1,0 +1,173 @@
+
+    html{
+	position:absolute;
+	margin:0px 0px;
+	font-family: def;
+	color: white;
+	text-align:center;
+
+    }
+
+@font-face {
+
+	font-family: def;
+	src: url(../Fonts/bn.ttf);
+
+}
+
+@font-face {
+
+	font-family: def1;
+	src: url(../Fonts/ft.ttf);
+
+}
+
+#LevelDisplay {
+    position:absolute;
+    padding-left:5px;
+    width:320px;
+    top:60px;
+    left:-82px;
+    text-align: center;
+    display: block;
+    font-family: def3;
+    overflow: hidden;
+    white-space: nowrap;
+    color: 3e82a9;
+    font-size:1.5em;
+    -webkit-text-stroke:0.5px ; 
+    -webkit-text-stroke-color:black;
+    -webkit-transform: rotate(-90deg);
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.1);
+    z-index:1;
+    display:none;
+}
+
+	
+.ArcState > header h2{
+	position: relative;
+	width:320px;
+	top:-160px;
+	left:-50px;
+	display: block;
+	text-align: center;
+	font-family: def2;
+    font-size:0.45em;
+	text-transform: capitalise;
+	line-height: 70px;
+	letter-spacing: .1em;
+	color:black;
+   -webkit-transform:rotate(-49deg);
+display:none;
+
+}
+
+.ArcState > header h2 span:nth-child(2),
+.ArcState > header h2 span:nth-child(3){
+	color:white;
+	
+}
+    
+	
+#BatteryImage{
+position: absolute;
+top:55px;
+left:30px;
+width:50px;
+z-index:1;
+-webkit-transform: rotate(-90deg);
+display:none;
+}
+    
+    
+#Overlay{position:absolute; top:0px; left:0px; width:260px; z-index:-3;}
+
+
+#ClockWrap{
+      position:absolute; top:70px; left:0px; text-align: center; width:260px; font-family:def1; height:568px; font-size:0.7em; z-index:1; 
+}
+    
+#hour{}
+#minute{}
+
+
+#tod{
+      position:absolute; top:12px; left:0px; text-align: center; width:260px; height:568px; font-size:1.5em; color:9d3847; text-transform:uppercase; font-family:def;  -webkit-text-stroke:1px ; -webkit-text-stroke-color:white; text-shadow: 2px 1px 2px rgba(0,0,0,0.5); z-index:1; display:none;
+}    
+
+#year{
+      position:absolute; text-align:center; top:157px; left:40px; width:260px; height:568px; text-transform:capitalise; font-size:1em; z-index: -1; display:;	 
+}
+
+#month{
+      position:absolute; text-align:center; top:157px; left:-35px; width:260px; height:568px; text-transform:uppercase; font-size:1em;	z-index: 1; display:;
+}	    
+#DateWrap{
+      position:absolute; text-align:center; top:157px; left:-1px; width:260px; height:568px; text-transform:capitalise; font-size:1em; color:303030; z-index: 1; display:;
+
+#date{}
+    
+}	 
+
+
+	
+.ArcToday > header h1{
+	position: relative;
+	width:260px;
+	top:70px; left:-8px;
+	display: block;
+	text-align: center;
+    font-size:2em;
+	text-transform:uppercase;
+    line-height: 70px;
+    color: 3e3e3e;
+	z-index:2; 
+	display:;
+
+}
+
+
+ 
+.ArcCity > header h1{
+	position: relative;
+	width:260px;
+	top:107px; left:0px;
+	display: block;
+	font-family:def5;
+	text-align: center;
+    font-size:1.2em;
+	text-transform:capitalise;
+    line-height: 70px;
+    color: white; display:none;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.7);
+    display:none;
+}
+
+.ArcTemp > header h3{
+	position: relative;
+	width:260px;
+	top:134px; left:-5px;
+	display: block;
+	font-family:def2;
+	text-align: center;
+    font-size:1em;
+	text-transform:capitalise;
+    line-height: 70px;
+    color: 7f99b5;
+    text-shadow: 2px 1px 2px rgba(0,0,0,0.5);
+	display:none;
+}
+  
+ #WeatherWrap{
+    position:absolute; top:146.5px; left:11px; width:320px; height:50px; font-size:0.8em; font-family:def1; font-weight:bold; text-transform:uppercase; z-index:54; -webkit-text-stroke-width:0.2px; -webkit-text-stroke-color:#b64242;; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); display:none;
+     }
+    
+#condition{}
+   
+#icon{
+    position:absolute; align:center; top:95px; left:90px; width:80px; z-index: -2;	display:none;
+}    
+
+
+
+

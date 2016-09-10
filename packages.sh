@@ -22,3 +22,4 @@ dpkg-deb -bZgzip projects/essenza170 debs
 dpkg-deb -bZgzip projects/essenza171 debs
 dpkg-deb -bZgzip projects/essenza172 debs
 dpkg-deb -bZgzip projects/essenza173 debs
+dpkg-deb -bZgzip projects/essenza174 debs

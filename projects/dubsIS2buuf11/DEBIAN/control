@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author:  dubailive 
+Depiction: https://dubailive.github.io/repo/depictions/?p=com.dubailive.dubsIS2buuf11
+Description: dubsIS2buuf11
+Maintainer:  dubailive  <dubailive1@gmail.com>
+Name: dubsIS2buuf11
+Package: com.dubailive.dubsIS2buuf11
+Section: Widgets
+Dependency: com.eldwin.iwidgets, com.matchstic.infostats2
+Version: 1.0

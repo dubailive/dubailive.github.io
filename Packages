@@ -4,9 +4,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.buuf1_1.0_iphoneos-arm.deb
 Size: 4401730
-MD5sum: 8addf8aef536fdb355d59a2c2dc07ab6
-SHA1: 9f414896a1fee3e100d9578cf815911aa3883df1
-SHA256: 6bb812c32f322a5ba91fbd6f0d324bf481fc790568a15c2e7c2eabc118983813
+MD5sum: 92b1408ea3364e3dc762c2af0278a1b4
+SHA1: ba5292c4d12b61b35cf4b0be70842260b89a68c5
+SHA256: c90a932fa3476ab5d2771d2768481c0b5db4dc695fdbbb3b3a40d48dd4a96553
 Section: Widgets
 Description: dubs iW buuf1
 Author:  dubailive 
@@ -20,9 +20,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.buuf2_1.0.1_iphoneos-arm.deb
 Size: 432450
-MD5sum: 2e9b6b315b66a458c5cce2d218655131
-SHA1: 5f44d5c8f4bb9edfa1ad81534e12ddf16ff8f56c
-SHA256: ae558136633c79a8e4dc418f1e1055d07cf5d8da9df01c5229adc47084836411
+MD5sum: 9a96a21b66f27bc056a5a34c3ef39dc8
+SHA1: 3d3aac31d93f67576ab2530798a3fa7d4ca9b998
+SHA256: a4fecef66aa098a1a7451a84b73390428a4d339004bfa83e1fa01ca4de9b85cc
 Section: Widgets
 Description: dubs iW buuf2
 Author:  dubailive 
@@ -36,9 +36,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.buuf3_1.0_iphoneos-arm.deb
 Size: 11168754
-MD5sum: a4bf4e42e5385d27a289de4abcc83de1
-SHA1: 0f5f9c4881259f982ec0511aeef3affbdb5b5672
-SHA256: b364ace4fba4a511075fc4f7de414a5cc22f9f7398bf1a1fdc6edc0eebce692f
+MD5sum: ecfef25423c515522febe2ca1c2220ba
+SHA1: 6156e91935826f88da2dd601b014721e400c1be7
+SHA256: 44e91c7fd6b423fb79a101459f45cea9c97faf60c53b522703d38a3c182fa00b
 Section: Widgets
 Description: dubs iW buuf3
 Author:  dubailive 
@@ -52,9 +52,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.buuf4_1.0_iphoneos-arm.deb
 Size: 1502308
-MD5sum: 95c0af255da31da522f61d774ba82714
-SHA1: 010ae953303e7c9d0ea287f904a7f67cd5ecb8bc
-SHA256: f858e997d6aaa780ebc39752930161e1e47bca64fc0ce02f9800adb33c8c3254
+MD5sum: fc9e66f7cfe7565e9dfad3aafce1787b
+SHA1: d2a1d8fdf0e9cae211d5a6a85f0d4ee8e7462bdd
+SHA256: 013ad0d10f04bfbabbd065175618ce364e30e551a21698fabf016590264e3d61
 Section: Widgets
 Description: dubs iW buuf4
 Author:  dubailive 
@@ -68,9 +68,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.buuf5_1.0_iphoneos-arm.deb
 Size: 14424116
-MD5sum: 266830f9dd8d2ad801765233d2a9a7f3
-SHA1: 69e7c05a06d5cc5335f91cd30a7902e3430a84a1
-SHA256: f0ecd0fda683eb0ad8ef9570be57aab32d08201163d2576562670aacaf96aee1
+MD5sum: 35ed7ebd3e476a6e4069b89793596dad
+SHA1: 14978a35443a019b92b32a778d66dd8664933483
+SHA256: 100c2b7c55c387c98daa61fbac0a221fc080f0afca3d94f2e6c70df73b3cab0c
 Section: Widgets
 Description: dubs iW buuf5
 Author:  dubailive 
@@ -84,9 +84,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.buuf6_1.0_iphoneos-arm.deb
 Size: 5245540
-MD5sum: e7946d2cd710c44efe8bf3636aa6c457
-SHA1: 90f6ba06f31d9515c1a53df62f8c3f9157fc4686
-SHA256: 7c526a6fc6fe83fb4f6588a1fa58b10ab68500f94af46c460c6cca18e0e6f55c
+MD5sum: e40d0e32b0111bab64b3070d12994571
+SHA1: 75f6edbe46ec7191f68ebbbd1e674973f9378f24
+SHA256: e70c8c432714d505fae546d97fe92ce95c4e490c44b072c8307aab0d01cfbc51
 Section: Widgets
 Description: dubs iW buuf6
 Author:  dubailive 
@@ -100,9 +100,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.buuf7_1.0_iphoneos-arm.deb
 Size: 11330352
-MD5sum: 2b7410ca726fbf1e07251d94e7e14aa7
-SHA1: da37cd6a70621df0ff74553839acb82e2654baef
-SHA256: 4065f0d6311f8e6209a1fefb7cac710768d48defdcc0c6cda7dcc04dcc9cd8a3
+MD5sum: e758c437d1132796812bd9044751442c
+SHA1: a47641f939a459548702ec7c42a7fcdbece37d17
+SHA256: a2a642c6506217ce6889b63342dff77a9d7eecd5c7efa60784fe03cd8e5915a4
 Section: Widgets
 Description: dubs iW buuf7
 Author:  dubailive 
@@ -115,10 +115,10 @@ Version: 1.0.1
 Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.dubsis2buuf10-ls_1.0.1_iphoneos-arm.deb
-Size: 6552320
-MD5sum: 321bac465ab8d24bee584abbba9e3abb
-SHA1: 08d54b664e2643e0f497a5ef6479c1a45849502f
-SHA256: 22ce844e7819ae2d889527ecf27a038431f2f8500af47d6a807e2e5f89a3893f
+Size: 6552324
+MD5sum: 3630afc80ba8ec9bc0fa3819c98a32e5
+SHA1: 7fd27f60f8d885569166dd3a12481b28c673439c
+SHA256: feb51b9c67d6a711ba1a2730f5f42f28642166d4a27ebc9170b3020b5bdebd0f
 Section: Widgets
 Description: dubsIS2buuf10-LS
 Author:  dubailive 
@@ -132,9 +132,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.dubsis2buuf11_1.0_iphoneos-arm.deb
 Size: 5146782
-MD5sum: eae7a206e66dcc37c136a704f8bbbe49
-SHA1: 73291156175cde79b38cb99c5d4f7f4ef29b43d7
-SHA256: 326dfd63c5695935c305f2edbe0f39d7faf495932b9af59e01c0aa082405720c
+MD5sum: 1006baada488d212f1636b49a66c0cb5
+SHA1: a84a31995ec06f20b7b7594ec60ff2e976e90dc0
+SHA256: c5c95db80c7161c82261ab203da10cac6d76cebaa66d1c6b5cdef2b2a6b0c4e1
 Section: Widgets
 Description: dubsIS2buuf11
 Author:  dubailive 
@@ -148,9 +148,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.dubsis2buuf12_1.0_iphoneos-arm.deb
 Size: 4884270
-MD5sum: b46c93df766984285dffbd420cf21eab
-SHA1: b363f6d118300e7e9b02f5249048e6573bf8aed5
-SHA256: eeefaddb1609861766a9970a1ecfbb7d226ffe0b85c65674cf4369dad184e082
+MD5sum: f8c1279da29d897b7abdda7bc136c199
+SHA1: 04f84977c789fb1814b73979ff0de82f77a80640
+SHA256: 9c6d6de76597966aac6ba6b52f5d72c28a8ff6763b0067420cac2ada0cefd0cb
 Section: Widgets
 Description: dubsIS2buuf12
 Author:  dubailive 
@@ -164,9 +164,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.dubsis2buuf13_1.0_iphoneos-arm.deb
 Size: 4948996
-MD5sum: 158e1753abd87daede134763be3f1e7c
-SHA1: a6dff6dbb57247a202287945a464c2b747a42063
-SHA256: 2faf45b733be328090175dcf23a56c48ca7229d0068b9199fa5caaa0852ad706
+MD5sum: a2e25212ca02eedc1243f1307cb9130d
+SHA1: 1451808073ab547314ea01df6fb9af9eada397f1
+SHA256: 770fd328a87e0312c0b71ab6737eee16fc89faecdc93c5df1f14c583ff0dd8b3
 Section: Widgets
 Description: dubsIS2buuf13
 Author:  dubailive 
@@ -174,15 +174,31 @@ Dependency: com.eldwin.iwidgets, com.matchstic.infostats2
 Depiction: https://dubailive.github.io/depictions/?p=com.dubailive.dubsIS2buuf13
 Name: dubsIS2buuf13
 
+Package: com.dubailive.dubsIS2buuf13-LS
+Version: 1.0
+Architecture: iphoneos-arm
+Maintainer:  dubailive  <dubailive1@gmail.com>
+Filename: ./debs/com.dubailive.dubsis2buuf13-ls_1.0_iphoneos-arm.deb
+Size: 5035594
+MD5sum: 158bd7ca5de50844dc673aaaee1bc480
+SHA1: 456ca492e6894aa94a9c71994b08e950fbca7a6c
+SHA256: ac33a7254dc13f92a665743c2f0faf865b915beb7a9f082a2e31a85690d8415b
+Section: Widgets
+Description: dubsIS2buuf13-LS
+Author:  dubailive 
+Dependency: com.eldwin.iwidgets, com.matchstic.infostats2, com.matchstic.XenHTML
+Depiction: https://dubailive.github.io/depictions/?p=com.dubailive.dubsIS2buuf13-LS
+Name: dubsIS2buuf13-LS
+
 Package: com.dubailive.dubsIS2buuf8
 Version: 1.0
 Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.dubsis2buuf8_1.0_iphoneos-arm.deb
 Size: 1678338
-MD5sum: 4cf32f382b752563a4fd75b76c12e757
-SHA1: 639dec043f0d188282ebbd990d8102d843702837
-SHA256: f98e65b370fbe161916c0af3591fb48440c7dcbb1056a905e25545d28cbf8d35
+MD5sum: 63bed25afba3f3da8150336a2240b3f8
+SHA1: dad28567ec73c94bb1c511ce9c9b9d053795deba
+SHA256: c0505f97c79deb80ef074f407c3525803bd27a1de162963ef6c4ad736861b356
 Section: Widgets
 Description: dubsIS2buuf8
 Author:  dubailive 
@@ -196,9 +212,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.dubsis2buuf9_1.0_iphoneos-arm.deb
 Size: 4691016
-MD5sum: b196f2703f8be9a82e6bb7a1ee2c6253
-SHA1: 57a46873512480d12c791668f2f872f9228ec317
-SHA256: 71fc95c7303b6907ef76919ce9b04e0c6834f054e56bc667c7dde5edba8b2b0b
+MD5sum: eef2ccf1fbd1dcf8bbb7691ef64d3d82
+SHA1: e506a85d2f14ed07eef6ccf78ec473b332e7cf88
+SHA256: 3d0fee1d971ccb78ab7c72d5aa6ddd54faf8932ce1e2a2c91563d3c719afbcc2
 Section: Widgets
 Description: dubsIS2buuf9
 Author:  dubailive 
@@ -212,9 +228,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.dubsis2e166_1.0_iphoneos-arm.deb
 Size: 1883830
-MD5sum: 86651ceba6278019489e777797001feb
-SHA1: c7c7be6883385a528bf6f006a75474e746ed1363
-SHA256: 13a08117b3275217fbd75f687e56b469361dc840ab946ef77cf2430b858cc84e
+MD5sum: 38c9cd2c5dfb99d7c2134c772c1f53f2
+SHA1: 805283130587a1cb92a9ca220e3119561bd90739
+SHA256: 5edbb7ff9dcd1d856c3ea35ebd5c5c623c97e448e97f3d3e1324eddbc2e03dae
 Section: Widgets
 Description: dubsIS2e166
 Author:  dubailive 
@@ -228,9 +244,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.dubsis2e167touchforecast_1.0_iphoneos-arm.deb
 Size: 5237204
-MD5sum: 846cebd9b12fdce3e0ab16ead7d67733
-SHA1: 5073818df0681e0eb1b8987f2f40030bbc12752a
-SHA256: 29c9685bd85b65f08f57bdb3b108a46addbc3d54f81c6e07d98e5523de207662
+MD5sum: 795485bdd225b0c0a5a40fa746d7561b
+SHA1: c3f1439b22d9d337b0374ee35c6ee4bbd88617b1
+SHA256: b8699925b75aa47539bd669f2635b4d838cef2db33ca6ec608fd8caf55abc0dd
 Section: Widgets
 Description: dubsIS2e167TouchForecast
 Author:  dubailive 
@@ -244,9 +260,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.dubsis2e168touchforecast_1.0_iphoneos-arm.deb
 Size: 4658200
-MD5sum: 8b013c0acdde9c88cf96f0b9201614b5
-SHA1: ec82f5ac6286ff9b68a6e9e13f09758417fdb152
-SHA256: b120c76e908986b9edf7cf268e5e6b00ca5f6c7d5f16fe1949ba30d5ba30baa4
+MD5sum: eefa8ba7f512a497760520157cd737fd
+SHA1: 297b97bac5aaaf285ef0368b198c9ca6dcfe5379
+SHA256: 3103b008f2b9489768a41e5457c431635dc0798ceb16f714b48bf2cbc0797d10
 Section: Widgets
 Description: dubsIS2e168TouchForecast
 Author:  dubailive 
@@ -260,9 +276,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.dubsis2e169touchforecast_1.0_iphoneos-arm.deb
 Size: 16822476
-MD5sum: e3969263d72b044fa9e4d62eb8731d2e
-SHA1: b544ab83a169a23c3cb3176e32ecec80b4def1da
-SHA256: cc048ab9975cbcfc0fbabb04a9971b1c70e70364b727a7f69a5afc69917e2b17
+MD5sum: ccb1f0a01b331e85eaa1beb373dcab4f
+SHA1: 72816953d171cf936a20cb2210c23b66bb662005
+SHA256: e3bdd11c297931b0ce62fcf4c9c87a44e1f6d57e88aa7b7bab4d803aedcec544
 Section: Widgets
 Description: dubsIS2e169TouchForecast
 Author:  dubailive 
@@ -276,9 +292,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.essenza162_1.0_iphoneos-arm.deb
 Size: 91588
-MD5sum: e45ba019cd103e96eb7a30ee4910da07
-SHA1: 775285c4728e16232efc53ad251e433cc8a1a29e
-SHA256: 1db398e45a72d75d3ba841385e5886bfc7ba32d01f1e92db9ce9484c32ad305b
+MD5sum: 8042c8a3083cc3de61e692f44acbe649
+SHA1: fe4d4158f93e1fcd1d5c217f69fb1938dcc1195e
+SHA256: ea4a3e39bc63a90863bb71ab9bbe61be369df2bced6fb2dd7280d72a91508ef8
 Section: Widgets
 Description: dubs iW essenza162
 Author:  dubailive 
@@ -291,10 +307,10 @@ Version: 1.0
 Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.essenza163_1.0_iphoneos-arm.deb
-Size: 134130
-MD5sum: b22d0dbd2523ec3e52fd773d85ddf2e6
-SHA1: da8847fdc1d0b1833be792b8f1cbf0bbe5aa289f
-SHA256: 638178349e66e574b852e1d033c36bb203277d07771b56ab65633840bf3632ba
+Size: 134132
+MD5sum: 063fcd05defe08417bca027ef47c42ab
+SHA1: d3e9e3f3474fbbed244c06d4b96ddb096442cd6f
+SHA256: 77c0fd88229319fd50158752d47c207f673eaa9938a720c83133a9b4d7a623fd
 Section: Widgets
 Description: dubs iW essenza163
 Author:  dubailive 
@@ -308,9 +324,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.essenza164_1.0_iphoneos-arm.deb
 Size: 525288
-MD5sum: 2a536fd7d53b75df77b71031d520a397
-SHA1: 79fa08d471a9ebd87a84ccc0ae475f209b479ff3
-SHA256: da35aea6bf45edd7e04ea0b32a3f6ad270264e7513245e1db991f1821d44878b
+MD5sum: f63fd92b9a0c221cc2a9fadf13ddf9fc
+SHA1: 14b221f4520a855db47d36f168592f0b928dc636
+SHA256: bd747d65e43ed3db5d7f340845475348af80d969aa5157348b933c044f0da2b7
 Section: Widgets
 Description: dubs iW essenza164
 Author:  dubailive 
@@ -324,9 +340,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.essenza165_1.0_iphoneos-arm.deb
 Size: 442910
-MD5sum: 85b1dd7d6b2891d14df8a561adf0a3b4
-SHA1: e7e43bd3a2509bfbc5e8d2e876133946a21ad122
-SHA256: 8661cd05177ad99130aed3db07660f2c78808a9d443ab4afb55cb502c0f3ae65
+MD5sum: 911501daa82b179a3e204adacfbb006c
+SHA1: 5b84512483c5dbb563231c3b4ed57b172743fd3f
+SHA256: 8d87f0a7aa571571e00b86ce059478c77de0f0abd0934f57cf84e52fcc1da0e8
 Section: Widgets
 Description: dubs iW essenza165
 Author:  dubailive 
@@ -340,9 +356,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.essenza170_1.0_iphoneos-arm.deb
 Size: 1488150
-MD5sum: b0f988ab07229e484503abf58971510c
-SHA1: f13a398faa05a65001b528b53c5ee80ead3775f5
-SHA256: 5fb528c60e4339e770bf33876091eee0027ff17d2455d1cec411080f5f3e3460
+MD5sum: 062472d2ee4b029b76f2d2cf6c538605
+SHA1: eb38b02d681a55b209e12adf8684fd32a94a2032
+SHA256: 65b5e1deaa2b858f10c1f9961681db33673bdea8a1473288c1452bc4065c1f6d
 Section: Widgets
 Description: dubs iW essenza170
 Author:  dubailive 
@@ -356,9 +372,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.essenza171_1.0_iphoneos-arm.deb
 Size: 141594
-MD5sum: b944aedb8e10552a3585d27ea87e6e82
-SHA1: baaf203567c84e6f7813f34d1d076d671404849f
-SHA256: 5961cfb6662e61464bb9ca8e51b697cdd0418692a052a2dd3f68787576d0ddde
+MD5sum: 3ae0498becd860bcf706c9c44fe556b7
+SHA1: 673621906a226b0aa237f5f367044a4acf2e30e1
+SHA256: 598a6632327008fd5f03b176a09c92e612107288a1c1d2139a0fd2e4f7a1cc93
 Section: Widgets
 Description: dubs iW essenza171
 Author:  dubailive 
@@ -372,9 +388,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.essenza172_1.0_iphoneos-arm.deb
 Size: 118440
-MD5sum: fdcc4dd837758846f1143b6b0dfe5874
-SHA1: 8b36b32b93ad0cb3fac7db219da058b6129431ad
-SHA256: 06312d110dbce464cc8b001368bdec134171270113d9a791fee943917a058923
+MD5sum: 3493c78d8dcb5bfa46e2cc096275c693
+SHA1: f860bb623ff2ca6122fb104e8bf8193ef3790ced
+SHA256: a0aca2ea42a1a218d2e2fb594a9d9768142577dcb8df3ce17f12f52dd083d2e6
 Section: Widgets
 Description: dubs iW essenza172
 Author:  dubailive 
@@ -388,9 +404,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.essenza173_1.0_iphoneos-arm.deb
 Size: 264298
-MD5sum: a29f1001e0bf036cfe5c874cf06799bf
-SHA1: e00c4274914867ede8659ab2c723c036222ec6b0
-SHA256: 15ce42a70fb5e70976cce54173127bbfa056e50a08566553cff597ca61722a5d
+MD5sum: 42f7ed63fc7b749e2790c22f62c23cab
+SHA1: 2ffd6f22b22dd9108adeb594686c241345d7b383
+SHA256: d37483838b1fdae5cc0bfbe3d9e4be228e1b31dcae25a797cc4e71ee6d5b437f
 Section: Widgets
 Description: dubs iW essenza173
 Author:  dubailive 
@@ -404,9 +420,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.essenza174_1.0_iphoneos-arm.deb
 Size: 163230
-MD5sum: 85f099b27f718ce29fee802abafbae4d
-SHA1: 12b5c2616331a90ae21311f7d51735cc8aa38d04
-SHA256: 6ab1eaac3d7593f345bd29f378dd50c63d47d6ce103b635a2725650f217fdca8
+MD5sum: d64ebe353b49a42eff2aa7638e329939
+SHA1: 1efe47fef336e385d90a42aa29919db94de3be42
+SHA256: fd3d94aca99c3d9e12410e3520c4171e2a157ba29a2e8ce1142ff5b00456aaa2
 Section: Widgets
 Description: dubs iW essenza174
 Author:  dubailive 
@@ -420,9 +436,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.essenza175_1.0_iphoneos-arm.deb
 Size: 1815588
-MD5sum: 68472b9cc3885e8824d018d43c9bc768
-SHA1: f7040abb164a98888cebe4f42747f3091b45e497
-SHA256: 6bc343f0c53bc02c5295244d772bbb2e0dbf71c383f86190227435c1717980e2
+MD5sum: ee0c1e84d363e3829d88a575d3f0a8c0
+SHA1: 6f7d896c9cc201565c2c94dcd93bf3ac7ba4ed04
+SHA256: d8c23d41b71b4101c372f0d93a40dd51696c88a45accefeee527d1f510319eb8
 Section: Widgets
 Description: dubs iW essenza175
 Author:  dubailive 
@@ -436,9 +452,9 @@ Architecture: iphoneos-arm
 Maintainer:  dubailive  <dubailive1@gmail.com>
 Filename: ./debs/com.dubailive.essenza70rev_1.0_iphoneos-arm.deb
 Size: 495944
-MD5sum: 537de8447ea555fb06cdbc496d2bda56
-SHA1: c2bf862e2866e15793a48ab5b7af52f0dc407106
-SHA256: 6bba80aab6c2822ee436372cbc1130b282d349c06e961895ba5ccb81eba234d8
+MD5sum: 7f09b8d52171561334a99359a93f4c19
+SHA1: 16a140f2fe23d92cc492f1d882d5dff84ce4c84d
+SHA256: fd0c24ac538f7a1808190e2e77041c500d4b9e978f314862b0e632f50327d2d3
 Section: Widgets
 Description: dubs iW essenza70rev
 Author:  dubailive 

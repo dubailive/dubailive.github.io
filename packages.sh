@@ -32,3 +32,4 @@ dpkg-deb -bZgzip projects/dubsIS2buuf14-iW debs
 dpkg-deb -bZgzip projects/dubsIS2buuf15-SBHTML-BadGirl debs
 dpkg-deb -bZgzip projects/dubsIS2buuf15-SBHTML-deadpool debs
 dpkg-deb -bZgzip projects/dubsIS2buuf16-SBHTML-armmaggedon debs
+dpkg-deb -bZgzip projects/dubsIS2buuf17-SBHTML-evelyn debs

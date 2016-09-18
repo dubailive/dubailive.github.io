@@ -1,0 +1,28 @@
+<package>
+	<id>com.dubailive.dubsIS2buuf14-iW</id>
+	<name>dubsIS2buuf14-iW</name>
+	<version>1.0.</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+      <maxiOS>9.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>com.eldwin.iwidgets,com.matchstic.infostats2</package>
+	</dependencies>
+	<descriptionlist>
+		<description>dubsIS2buuf14-iW</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>dubsIS2buuf14-iW</description>
+			<image>ss.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+  <links>
+</links>
+</package>

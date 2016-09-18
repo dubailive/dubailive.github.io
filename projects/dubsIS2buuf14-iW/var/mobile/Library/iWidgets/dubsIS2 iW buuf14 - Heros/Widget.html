@@ -1,0 +1,213 @@
+<html>
+<head>
+    <title>dubsIS2buuf14 Hero's</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=320, height=568, initial-scale=1.3, maximum-scale=1.3, user-scalable=no">
+    <style>
+    body{
+        margin:0;
+        padding:0;
+    }
+    .iWidget{
+        position: absolute;
+        width: 320px;
+        height: 300px;
+    }
+    .iWidget div{
+        position: relative;
+        top:5px;
+        width: 100%;
+        text-align: center;
+        color:ddccb7;
+        opacity:0.9;
+        z-index: 1;
+    }
+    #time{
+            font-family: 'sr';
+        }
+    #day{
+            font-family: 'wj';
+        }
+    #temp, #city, #date, #battery, #ram, #high, #low{
+            font-family: 'yk';
+        }
+    #condition{
+        font-family: 'sg';
+    }
+
+    #Overlay{
+        position:absolute; top:0px; left:0px; width:320px; z-index:3;
+    }
+   
+    #icon{
+        position: absolute;
+        top:120;
+        left:80px;
+        width: 40%;
+        z-index: -2;
+    }
+    #temp{
+        position: absolute;
+        text-align: right;
+        left:-50px;
+        margin-top: 200px;
+        font-size: 40px;
+    }
+    #high{
+        position: absolute;
+        text-align: right;
+        left:-20px;
+        margin-top: 200px;
+        font-size: 15px;
+    }
+    #low{
+        position: absolute;
+        text-align: right;
+        left:-20px;
+        margin-top: 227px;
+        font-size: 15px;
+    }
+    #condition{
+        position: absolute;
+        text-align: left;
+        left:30px;
+        color:white;
+        margin-top: 225px;
+        font-size: 11px;
+        text-shadow: 0px 0px 7px #f6a609, 0px 0px 9px #f6a609, 0px 0px 12px #f6a609;
+    }
+    #time{
+        position: absolute;
+        margin-top: 70px;
+        font-size: 60px;
+        color:373737;
+        -webkit-text-stroke-width:1px; -webkit-text-stroke-color:#eee;
+        letter-spacing: -0.09em;
+    }
+    #day{
+        position: absolute;
+        margin-top: 10px;
+        font-size: 30px;
+        text-transform: uppercase;
+    }
+    #date{
+        position: absolute;
+        margin-top: 40px;
+        font-size: 15px;
+    }
+    #city{
+        position: absolute;
+        text-align: left;
+        margin-top: 195px;
+        left:30px;
+        font-size: 22px;
+    }
+    #ram{
+        position: absolute;
+        text-align: right;
+        left:-20px;
+        margin-top: 150px;
+        font-size: 15px;
+    }
+    #battery{
+        position: absolute;
+        text-align: right;
+        left:-20px;
+        margin-top: 130px;
+        font-size: 15px;
+    }
+    @font-face {
+        font-family: 'sr';
+        src: url(src/fonts/sr.ttf);
+        }
+    @font-face {
+        font-family: 'wj';
+        src: url(src/fonts/wj.ttf);
+        }  
+    @font-face {
+        font-family: 'yk';
+        src: url(src/fonts/yk.ttf);
+        } 
+
+    @font-face{
+        font-family: 'sg';
+        src:url('src/fonts/sg.ttf');
+    }
+    </style>
+</head>
+<body onload="InfoStats.init()" onunload= "InfoStats.unload()">
+    <div class="iWidget">
+        <div id="temp">26&deg;C</div>
+        <div id="high">22&deg;</div>
+        <div id="low">08&deg;</div>
+        <div id="condition">Clear</div>
+        <div id="city">Nairobi</div>
+        <div id="time">1508</div>
+        <div id="day" class="ccolor">Friday</div>
+        <div id="date">07 September 2016</div>
+        <div id="battery"> Batt - 100%</div>
+        <div id="ram">Ram - 20MB</div>
+        <img id="icon" src="src/icons/27.png"/>
+        <img id="Overlay" src="src/images/Overlay.png"/>
+    </div>
+    <!--Clock-->
+    <script type="text/javascript" src="src/js/clock.js"></script>
+    <script type="text/javascript" src="src/js/lang.js"></script>
+    <script type="text/javascript">
+        
+		  clock({
+          twentyfour : twentyfour,
+          padzero : true,
+          refresh : 1000,
+          success: function(clock){
+            document.getElementById('time').innerHTML = clock.hour() + ":" + clock.minute();
+            document.getElementById('day').innerHTML = translate[current].weekday[clock.day()];
+            document.getElementById('date').innerHTML = clock.datepadded() + ' ' + translate[current].month[clock.month()];
+          }
+        });
+    </script>
+    <!--Weather-->
+    <script type="text/cycript">
+        var InfoStats = {
+            //when the widget starts
+            init : function(){
+                [IS2Weather registerForWeatherUpdatesWithIdentifier:"com.dubs.buuf14" andCallback:^ void () {
+                    InfoStats.updateDOM();
+                }];
+                [IS2Weather setWeatherUpdateTimeInterval:10 forRequester:"com.dubs.buuf14"];
+                InfoStats.updateOften();
+            },
+            //when the widget is closed
+            unload: function(){
+                [IS2Weather unregisterForUpdatesWithIdentifier:"com.dubs.buuf14"];
+                return null;
+            },
+            //updated often
+            updateOften: function(){
+                var battery = [IS2System batteryPercent],
+                    ram = [IS2System ramFree];
+                document.getElementById('battery').innerHTML = 'Batt -' + battery + "%";
+                document.getElementById('ram').innerHTML = 'Ram -' + ram + 'mb';
+                setTimeout(function(){
+                    InfoStats.updateOften();
+                },3000);
+            },
+            //updated when weather callback is fired
+            updateDOM: function(){
+                var temp = [IS2Weather currentTemperature],
+                    condition = [IS2Weather currentConditionAsString],
+                    high = [IS2Weather highForCurrentDay],
+                    low = [IS2Weather lowForCurrentDay],
+                    city = [IS2Weather currentLocation];
+                    
+                 document.getElementById('temp').innerHTML = temp + '&deg;';
+                 document.getElementById('condition').innerHTML = condition;
+                 document.getElementById('high').innerHTML = high  + '&deg;';
+                 document.getElementById('low').innerHTML = low  + '&deg;';
+                 document.getElementById('city').innerHTML = city;
+                 document.getElementById('icon').src = "src/icons/" + [IS2Weather currentCondition] + ".png";
+            }
+        };
+    </script>
+</body>
+</html>

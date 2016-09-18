@@ -1,0 +1,28 @@
+<package>
+	<id>com.dubailive.dubsIS2buuf15-SBHTML-BadGirl</id>
+	<name>dubsIS2buuf15-SBHTML-BadGirl</name>
+	<version>1.0.</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+      <maxiOS>9.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>com.matchstic.infostats2,com.matchstic.XenHTML</package>
+	</dependencies>
+	<descriptionlist>
+		<description>dubsIS2buuf15-SBHTML-BadGirl</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>dubsIS2buuf15-SBHTML-BadGirl</description>
+			<image>ss.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+  <links>
+</links>
+</package>

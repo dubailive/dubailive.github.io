@@ -29,3 +29,4 @@ dpkg-deb -bZgzip projects/dubsIS2buuf12 debs
 dpkg-deb -bZgzip projects/dubsIS2buuf13 debs
 dpkg-deb -bZgzip projects/dubsIS2buuf13-LS debs
 dpkg-deb -bZgzip projects/dubsIS2buuf14-iW debs
+dpkg-deb -bZgzip projects/dubsIS2buuf15-SBHTML-BadGirl debs

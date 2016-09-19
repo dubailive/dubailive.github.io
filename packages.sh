@@ -35,3 +35,7 @@ dpkg-deb -bZgzip projects/dubsIS2buuf16-SBHTML-armmaggedon debs
 dpkg-deb -bZgzip projects/dubsIS2buuf17-SBHTML-evelyn debs
 dpkg-deb -bZgzip projects/dubsIS2buuf18-SBHTML-pirates debs
 dpkg-deb -bZgzip projects/dubsIS2buuf19-iW-captainamerica debs
+dpkg-deb -bZgzip projects/dubsbuuf20-iW-hulk debs
+dpkg-deb -bZgzip projects/dubsbuuf20A-iW-batman debs
+dpkg-deb -bZgzip projects/dubsbuuf21-iW-supermario debs
+dpkg-deb -bZgzip projects/dubsbuuf22-iW-harley debs

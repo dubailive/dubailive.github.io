@@ -1,0 +1,28 @@
+<package>
+	<id>com.dubailive.dubsbuuf22-iW-harley</id>
+	<name>dubsbuuf22-iW-harley</name>
+	<version>1.0.</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+      <maxiOS>9.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>com.eldwin.iwidgets,com.matchstic.infostats2</package>
+	</dependencies>
+	<descriptionlist>
+		<description>dubsbuuf22-iW-harley</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>dubsbuuf22-iW-harley</description>
+			<image>ss.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial release</change>
+	</changelog>
+  <links>
+</links>
+</package>

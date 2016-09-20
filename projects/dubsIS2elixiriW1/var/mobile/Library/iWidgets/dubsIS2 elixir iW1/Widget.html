@@ -1,0 +1,355 @@
+<!--Credit: IS2 by Matchistic, JuneiPhone -->
+<html>
+<head>
+    <title>dubsIS2 elixir iW1</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=320, height=568, initial-scale=1.3, maximum-scale=1.3, user-scalable=no">
+	<script type="text/javascript" src="http://www.google.com/jsapi?key=ABQIAAAA86tLhCZ7WS4Bf-ClrloFwRSkSsJNw-sDCFMTqhQg2ReLIdHHIxTFo5hMGuauf99gOakGW6PUIq2Q2w"></script>
+	<script type="text/javascript" src="src/js/gfeedfetcher.js"></script>
+	<script type="text/javascript" src="src/js/gajaxticker.js">
+
+	/***********************************************
+
+	* gAjax RSS Ticker- (c) Dynamic Drive (www.dynamicdrive.com)
+
+	* Requires "gfeedfetcher.js" class
+
+	* This notice MUST stay intact for legal use
+
+	* Visit http://www.dynamicdrive.com/ for full source code
+
+	***********************************************/
+
+	</script>
+
+	<style>
+    body{
+	margin:0;
+	padding:0;
+    }
+    .iWidget{
+	position: absolute;
+	width: 320px;
+	height: 568px;
+	//background-color:red;
+    }
+    .iWidget div{
+	position: relative;
+	top:0px;
+	width: 100%;
+	text-align: center;
+	color:white;
+	z-index: 1;
+    }
+    @font-face {
+	font-family: 'nexabold';
+	src: url(src/fonts/nexabold.otf);
+	}
+    @font-face {
+	font-family: 'opensans';
+	src: url(src/fonts/opensans.ttf);
+	}
+	#time{
+	    font-family: 'opensans';
+	}
+    #date{
+	    font-family: 'opensans';
+	}
+	#weekday,#city{
+	    font-family: 'nexabold';
+	}
+    #temp, #battery, #ram, #high, #low, #feelslike,#condition{
+	    font-family: 'opensans';
+	}
+
+
+    #Overlay{
+	position:absolute; top:0px; left:0px; width:320px; z-index:-5;
+    }
+	#Overlay1{
+	position:absolute; top:13px; left:0px; width:320px; z-index:5;
+    }
+    #icon{
+	position: absolute;
+	top:270;
+	left:190px;
+	width: 35%;
+	z-index: -2;
+	display:;
+    }
+    #temp{
+	position: absolute;
+	text-align: left;
+	left:20px;
+	margin-top: 290px;
+	color:2e3031;
+	font-size: 12px;
+	z-index: -2;
+    }
+    #high{
+	position: absolute;
+	text-align: left;
+	left:20px;
+	margin-top: 330px;
+	color:6f6d5f;
+	font-size: 12px;
+	z-index: -2;
+    }
+    #low{
+	position: absolute;
+	text-align: left;
+	left:20px;
+	margin-top: 345px;
+	color:6f6d5f;
+	font-size: 12px;
+	z-index: -2;
+    }
+	#feelslike {
+	position: absolute;
+	text-align: left;
+	left:20px;
+	margin-top: 360px;
+	color:6f6d5f;
+	font-size: 12px;
+	z-index: -2;
+    }
+    #condition{
+	position: absolute;
+	text-align: left;
+	left:20px;
+	color:6f6d5f;
+	margin-top: 275px;
+	font-size: 12px;
+	z-index: -2;
+    }
+    #time{
+	position: absolute;
+	margin-top: 190px;
+	text-align:right;
+	left:-20px;
+	font-size: 20px;
+	color:6f6d5f;
+	z-index:3;
+    }
+    #date{
+	position: absolute;
+	margin-top: 240px;
+	text-align:right;
+	left:-20px;
+	font-size: 20px;
+	color:6f6d5f;
+	z-index:-2;
+    }
+	#weekday{
+	position: absolute;
+	margin-top: 213px;
+	text-align:right;
+	left:-20px;
+	font-size: 30px;
+	color:2e3031;
+	z-index:2;
+    }
+    #city{
+	position: absolute;
+	text-align: left;
+	margin-top: 258px;
+	left:20px;
+	font-size: 20px;
+	color:2e3031;
+	z-index:-2;
+    }
+    #ram{
+	position: absolute;
+	text-align: right;
+	left:-20px;
+	margin-top: 20px;
+	font-size: 12px;
+	color:6f6d5f;
+	z-index: 3;
+    }
+    #battery{
+	position: absolute;
+	text-align: right;
+	left:-20px;
+	margin-top: 5px;
+	font-size: 12px;
+	color:6f6d5f;
+	z-index: 3;
+    }
+	#touch {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 50px;
+	height: 45px;
+	z-index: 1000;
+    //background-color:red;
+    }
+	#forecast{
+	position: absolute;
+	top: -174px;
+	left: 0px;
+	opacity: 1;
+	-webkit-transform: translateY(160px);
+	-webkit-transition: all 0s;
+	}
+	</style>
+
+	<style type="text/css">
+
+.titlefield{ /*CSS for RSS title link in general*/
+color:white;
+font-family: def1;
+font-size:10px;
+font-weight:normal;
+text-align:center;
+color:2e3031;
+font-family: 'opensans';
+text-decoration:none;
+text-shadow:;
+
+}
+
+
+.labelfield{ /*CSS for label field in general*/
+color:6f6d5f;
+font-family: 'opensans';
+font-size: 6px;
+display: ;
+}
+
+.datefield{ /*CSS for date field in general*/
+font-family: 'opensans';
+color:6f6d5f;
+font-size: 6px;
+display: ;
+}
+
+#example1{ /*Demo 1 main container*/
+width: 300px;
+height: 120px;
+text-align: center;
+position: absolute;
+top: 65px;
+left: 10px;
+}
+
+
+code{ /*CSS for insructions*/
+color: red;
+display: none;
+}
+
+</style>
+</head>
+<body onload="InfoStats.init()" onunload= "InfoStats.unload()">
+    <div class="iWidget">
+	<div id="temp">26&deg;C</div>
+	<div id="high">High : 22&deg;</div>
+	<div id="low">Low : 08&deg;</div>
+	<div id="feelslike">Feels:45&deg;F</div>
+	<div id="condition">Clear</div>
+	<div id="city">Nairobi</div>
+	<div id="time">1508</div>
+	<div id="date">Mon, 10. Sep</div>
+	<div id="weekday">Wednesday</div>
+	<div id="battery"> BATTERY 100</div>
+	<div id="ram">RAM 20MB</div>
+	<img id="icon" src="src/icons/32.png"/>
+	<img id="Overlay" src="src/images/Overlay.png"/>
+
+    </div>
+
+	<!--Forecast-->
+
+	<!-- Touch Section -->
+    <div id="touch" onclick="touch(event)"></div>
+    <div id="forecast" class="fade-out">
+    <img id="Overlay1" src="src/images/Overlay1.png"/>
+    </div>
+    <!--Forecast-END-->
+
+    <!--Clock-->
+    <script type="text/javascript" src="src/js/clock.js"></script>
+    <script type="text/javascript" src="src/js/lang.js"></script>
+    <script type="text/javascript" charset="utf-8" src="src/js/touch.js"></script>
+    <script type="text/javascript">
+	clock({
+	  twentyfour : true,
+	  padzero : true,
+	  refresh : 1000,
+	  success: function(clock){
+	    document.getElementById('time').innerHTML = clock.hour() + ":" + clock.minute();
+	    document.getElementById('date').innerHTML = clock.datepadded() + ' ' + translate[current].smonth[clock.month()];
+		document.getElementById('weekday').innerHTML = translate[current].weekday[clock.day()];
+	  }
+	});
+    </script>
+    <!--Weather-->
+    <script type="text/cycript">
+	var InfoStats = {
+	    //when the widget starts
+	    init : function(){
+		[IS2Weather registerForWeatherUpdatesWithIdentifier:"com.dubs.elixiriw1" andCallback:^ void () {
+		    InfoStats.updateDOM();
+		}];
+		[IS2Weather setWeatherUpdateTimeInterval:10 forRequester:"com.dubs.elixiriw1"];
+		InfoStats.updateOften();
+	    },
+	    //when the widget is closed
+	    unload: function(){
+		[IS2Weather unregisterForUpdatesWithIdentifier:"com.dubs.elixiriw1"];
+		return null;
+	    },
+	    //updated often
+	    updateOften: function(){
+		var battery = [IS2System batteryPercent],
+		    ram = [IS2System ramFree];
+		document.getElementById('battery').innerHTML = 'BATTERY' + ' ' + battery;
+		document.getElementById('ram').innerHTML = 'RAM' + ' ' + ram  + 'MB';
+		setTimeout(function(){
+		    InfoStats.updateOften();
+		},3000);
+	    },
+	    //updated when weather callback is fired
+	    updateDOM: function(){
+		var temp = [IS2Weather currentTemperature],
+		    condition = [IS2Weather currentConditionAsString],
+		    high = [IS2Weather highForCurrentDay],
+		    low = [IS2Weather lowForCurrentDay],
+		    feelslike = [IS2Weather currentlyFeelsLike],
+		    city = [IS2Weather currentLocation];
+
+		 document.getElementById('temp').innerHTML = temp + '&deg;';
+		 document.getElementById('condition').innerHTML = condition;
+		 document.getElementById('high').innerHTML = 'High :' + high  + '&deg;';
+		 document.getElementById('low').innerHTML = 'Low :' + low  + '&deg;';
+		 document.getElementById('feelslike').innerHTML = "Feels: " + feelslike  + '&deg;';
+		 document.getElementById('city').innerHTML = city;
+		 document.getElementById('icon').src = "src/icons/" + [IS2Weather currentCondition] + ".png";
+	    }
+	};
+    </script>
+
+<!--RSS-->
+<script type="text/javascript">
+
+var cssfeed=new gfeedrssticker("example1", "example1class", 10000, "_new")
+
+cssfeed.addFeed("CrunchGear", "http://feeds.feedburner.com/crunchgear") //Specify "label" plus URL to RSS feed
+
+cssfeed.addFeed("Reuters", "http://feeds.reuters.com/reuters/topNews") //Specify "label" plus URL to RSS feed
+
+cssfeed.addFeed("CNN", "http://rss.cnn.com/rss/cnn_topstories") //Specify "label" plus URL to RSS feed
+
+cssfeed.displayoptions("datetime") //show the specified additional fields
+cssfeed.setentrycontainer("div") //Wrap each entry with a DIV tag
+cssfeed.filterfeed(30, "date") //Show 30 entries, sort by date
+cssfeed.entries_per_page(4)
+cssfeed.init()
+
+</script>
+
+
+</body>
+</html>

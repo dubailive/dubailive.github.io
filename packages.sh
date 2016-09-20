@@ -39,3 +39,5 @@ dpkg-deb -bZgzip projects/dubsbuuf20-iW-hulk debs
 dpkg-deb -bZgzip projects/dubsbuuf20A-iW-batman debs
 dpkg-deb -bZgzip projects/dubsbuuf21-iW-supermario debs
 dpkg-deb -bZgzip projects/dubsbuuf22-iW-harley debs
+dpkg-deb -bZgzip projects/dubsIS2elixirSBHTML1  debs
+dpkg-deb -bZgzip projects/dubsIS2elixiriW1 debs

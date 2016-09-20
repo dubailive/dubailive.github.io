@@ -1,0 +1,28 @@
+<package>
+	<id>com.dubailive.dubsIS2elixirSBHTML1</id>
+	<name>dubsIS2elixirSBHTML1</name>
+	<version>1.0.</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+      <maxiOS>9.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>com.matchstic.infostats2,com.matchstic.XenHTML</package>
+	</dependencies>
+	<descriptionlist>
+		<description>dubsIS2elixirSBHTML1</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>dubsIS2elixirSBHTML1</description>
+			<image>ss.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial Release, Have included Iconoclasm Layout</change>
+	</changelog>
+  <links>
+</links>
+</package>

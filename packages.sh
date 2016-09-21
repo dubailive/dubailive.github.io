@@ -42,3 +42,4 @@ dpkg-deb -bZgzip projects/dubsbuuf22-iW-harley debs
 dpkg-deb -bZgzip projects/dubsIS2elixirSBHTML1  debs
 dpkg-deb -bZgzip projects/dubsIS2elixiriW1 debs
 dpkg-deb -bZgzip projects/dubsIS2elixiriW2 debs
+dpkg-deb -bZgzip projects/dubsessenza146 debs

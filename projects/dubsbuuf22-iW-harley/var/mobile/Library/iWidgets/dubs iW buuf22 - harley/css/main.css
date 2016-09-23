@@ -1,0 +1,128 @@
+
+	  html{
+	position:absolute;
+	margin:0px 0px;
+	padding: 0;
+	font-family: def1;
+	color:white;
+   text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+    clip:rect(0px,320px,568px,0px);
+   
+}
+
+
+
+@font-face {
+
+	font-family: def;
+
+	src: url(../Fonts/Galano_Grotesque_DEMO_Bold.otf);
+
+}
+
+@font-face {
+
+	font-family: def1;
+
+	src: url(../Fonts/Futurist_Fixed-width_Bold.ttf);
+
+}
+
+@font-face {
+
+	font-family: def2;
+
+	src: url(../Fonts/yikes.ttf);
+
+}
+
+#BatteryWrap{
+    position:absolute;
+    margin:0px 0px;
+}
+	
+#LevelDisplay{
+position:absolute;
+top:58px; 
+left:119.5px; 
+width:320px; 
+height:568px; 
+font-size:0.5em;
+color:#fcfefe; 
+text-align:center;
+font-family:def1;
+z-index:50;
+display:none;
+}
+	
+#StateDisplay{
+position:absolute;
+top:40px;
+left:-52px;
+width:320px;
+height:568px;
+font-size:1em;
+text-align:right;
+display:none;
+}
+    
+#BatteryImage{
+position: absolute;
+top:285px;
+left:192px;
+width: 49px;
+opacity:0.9;
+}
+	
+      
+#overlay{position:absolute; top:20px; left:60px; width:200px; z-index:5;} 
+
+
+
+#ClockWrap{
+position:absolute; top:15px; left:15px; width:320px; height:568px; font-size:1em; text-transform:uppercase; color:white; font-family: def2; text-align:center; 
+}
+   
+#hour{}
+
+#minute{}
+
+#tod{display: none;}
+    
+       
+#today{
+      position:absolute; text-align:right; top:265px; left:-120px; width:320px; height:568px; font-size:2.2em; font-family:def; color:a97694; -webkit-text-stroke:1px white;  text-transform:uppercase; z-index: 3;
+    
+}
+	  
+#DateWrap{
+      position:absolute; text-align:center; top:310px; left:0px; width:320px; height:568px; text-transform:uppercase; -webkit-text-stroke:0.5px white; font-size:1em; font-family:def2; color:dfe4ed;
+    
+}	 
+
+#month{}
+    
+#date{}
+	
+#year{}
+	
+	
+    #WeatherWrap{
+    position:absolute; text-align:left; top:15px; left:10px; width:320px; height:50px; font-family:def2; font-size:1em; color:fffec7; z-index: 3;
+     }
+    
+    
+#temp{}
+    
+#condition{position:absolute; text-align:left; top:93px; left:10px; font-family:def2; color:f3d9bf; font-size:0.7em; z-index: 3;}
+
+#city{display: none;}
+   
+#icon{
+    position:absolute; top:5px; left:12px; width:120px;z-index:-2;
+}
+
+#DAY{
+position:absolute; top:268px; left:-71.5px; width:320px; height:568px; font-size:1.5em; text-transform:uppercase; color:f3d9bf; -webkit-text-stroke-width:0.5px; -webkit-text-stroke-color:white; font-family: def; text-align:right; 
+}  
+	

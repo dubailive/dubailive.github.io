@@ -1,0 +1,8 @@
+dubs iWidget Credit for Scripts - jeeepers7 {J3T}, JuneiPhoneInstall Infostats2 for StatusBar Cell, WiFi Signals & Battery from Matchstic Repo : infostats2.incendo.ws.Get weather code in Config.js from www.weather.com. OR Turn GPS to TRUE to use WidgetWeater2The iWidget is on manual scale and not autoscale. Viewport at top of Widget.html is currently set to 1.3 (i6s+), scale down to "1" for i5 and 1.18.
+
+change your name from “dubs” in Widget.html <div id="name">dubs</div>
+change your data from “4G LTE” in Widget.html <div id=“data”>4G LTE</div>
+
+change weather from “C” to “F” in js/WeatherMain.js
+
+Change name dubs to yours at <div id="name">Hello Dubs!!!</div> in Widget.html

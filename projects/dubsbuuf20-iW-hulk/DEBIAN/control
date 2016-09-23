@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author:  dubailive 
+Depiction: https://dubailive.github.io/depictions/?p=com.dubailive.dubsbuuf20-iW-hulk
+Description: dubsbuuf20-iW-hulk
+Maintainer:  dubailive  <dubailive1@gmail.com>
+Name: dubsbuuf20-iW-hulk
+Package: com.dubailive.dubsbuuf20-iW-hulk
+Section: Widgets
+Dependency: com.eldwin.iwidgets, com.matchstic.infostats2
+Version: 1.0

@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author:  dubailive 
+Depiction: https://dubailive.github.io/depictions/?p=com.dubailive.dubsbuuf22-iW-harley
+Description: dubsbuuf22-iW-harley
+Maintainer:  dubailive  <dubailive1@gmail.com>
+Name: dubsbuuf22-iW-harley
+Package: com.dubailive.dubsbuuf22-iW-harley
+Section: Widgets
+Dependency: com.eldwin.iwidgets, com.matchstic.infostats2
+Version: 1.0.1

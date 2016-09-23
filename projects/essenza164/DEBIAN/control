@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author:  dubailive 
+Depiction: https://dubailive.github.io/depictions/?p=com.dubailive.essenza164
+Description: dubs iW essenza164
+Maintainer:  dubailive  <dubailive1@gmail.com>
+Name: dubs iW essenza164
+Package: com.dubailive.essenza164
+Section: Widgets
+Dependency: com.eldwin.iwidgets
+Version: 1.0

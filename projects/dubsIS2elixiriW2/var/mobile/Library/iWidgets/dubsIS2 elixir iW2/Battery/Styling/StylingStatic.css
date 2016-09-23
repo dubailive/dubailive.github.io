@@ -1,0 +1,61 @@
+
+@font-face {font-family: "Default1"; src: url('Champagne.ttf');} 
+
+
+
+body {
+position: absolute;
+background-color:transparent;
+width: 43px;
+height: 240px;
+top:0px;
+left:0px;}
+
+
+#LevelDisplay{
+display:none;
+position: absolute;
+text-align: right;
+width: 320px;
+height: 50px;
+top: 253px;
+left: -238px;
+font-family: Default1;
+font-size: 14px;
+font-weight: 300; 
+color: #fff;
+opacity: 0.9;}
+
+#StateDisplay{
+display: none;
+position: absolute;
+text-align: left;
+width: 320px;
+height: 50px;
+top: 255px;
+left: 58px;
+font-family: Default1;
+font-size: 12px;
+font-weight: 500;
+color: #fff;
+text-transform:uppercase;
+opacity: 1;}
+
+#BatteryImage{
+position: absolute;
+top:0px;
+left:0px;
+width: 43px;
+height: 240px;
+z-index:20;
+opacity: 1.0;}
+
+#BatteryText{
+display: none;
+position: absolute;
+top:137px;
+left:15px;
+width: 320px;
+height: 50px;
+opacity: 1;}
+

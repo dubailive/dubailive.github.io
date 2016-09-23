@@ -1,0 +1,160 @@
+
+	  html{
+	position:absolute;
+	margin:0px 0px;
+	padding: 0;
+	font-family: def;
+	color:white;
+    clip:rect(0px,320px,568px,0px);
+     
+}
+
+
+
+@font-face {
+
+	font-family: def;
+
+	src: url(../Fonts/mr.ttf);
+
+}
+    
+@font-face {
+
+	font-family: def1;
+
+	src: url(../Fonts/ar.ttf);
+
+}
+	
+@font-face {
+
+	font-family: def2;
+
+	src: url(../Fonts/so.ttf);
+
+}
+@font-face {
+
+	font-family: def3;
+
+	src: url(../Fonts/hbs.otf);
+
+}
+
+@font-face {
+
+	font-family: def4;
+
+	src: url(../Fonts/cc.ttf);
+
+}
+
+
+#BatteryWrap{
+    position:absolute;
+    margin:0px 0px;
+}
+	
+#LevelDisplay{
+position:absolute;
+top:5px; 
+left:-17px; 
+width:320px; 
+height:568px; 
+font-size:2em; 
+text-align:right;
+font-family: def1;
+text-shadow: 2px 2px 2px rgba(0,0,0,0.9);
+z-index:1;
+display:none;
+}
+	
+#StateDisplay{
+position:absolute;
+text-align:right;
+top:0px;
+left:-20px;
+width:320px;
+height:568px;
+font-size:0.8em;
+color:ff0000;
+-webkit-text-stroke:0.2px black;
+z-index:2;
+display:none;
+}
+    
+#BatteryImage{
+position: absolute;
+top:76px;
+left:-12px;
+width: 330px;
+z-index: -3;
+display:none;
+
+}
+	
+      
+#Overlay{position:absolute; top:0px; left:0px; width:320px; z-index:1;}
+#Overlay1{position:absolute; top:108px; left:0px; width:320px; z-index:5;}
+
+  
+#minute{
+position:absolute; top:40px; left:175px; width:320px; height:568px; font-family:def3; color:black; font-size:4em; text-align:left; -webkit-text-stroke:0.3px 555555; text-transform:uppercase;	 z-index:3; 
+}
+
+#minute1{
+position:absolute; top:40px; left:178px; width:320px; height:568px; font-family:def3; color:black; font-size:4em; text-align:left; text-transform:uppercase; opacity:0.4;  z-index:2; 
+}
+
+#ClockWrap{
+position:absolute; top:40px; left:38px; width:320px; height:568px; font-family:def3; color:black; font-size:4em; text-align:left; -webkit-text-stroke:0.3px 555555; text-transform:uppercase;	z-index:3; 
+}
+   
+#hour{}
+
+#tod{display:none;}
+
+#ClockWrap1{
+position:absolute; top:40px; left:41px; width:320px; height:568px; font-family:def3; color:black; font-size:4em; text-align:left; text-transform:uppercase; opacity:0.4; z-index:2; 
+}
+   
+#hour1{}
+
+#tod1{display:none;}
+       
+#today{
+      position:absolute; text-align:center; top:260px; left:0px; width:320px; height:568px; font-size:2.2em; font-family:def2; color:b2ad87;  -webkit-text-stroke:1px 55555; text-shadow: 0px 5px 2px rgba(0,0,0,0.7); text-transform:uppercase; z-index:2; 
+    
+}
+
+
+	  
+#DateWrap{
+      position:absolute; text-align:center; top:30px; left:0px; width:320px; height:568px; font-size:2em; color:ea6463; -webkit-text-stroke:1px black; text-shadow: -3px -3px 2px rgba(0,0,0,0.5); text-transform:capitalize; z-index:3;
+}	 
+
+#month{}
+
+#date{}
+	
+#year{display:none;}
+	
+#CityWrap{
+position:absolute; text-align:right; top:109px; left:-40px; width:320px; height:568px; font-size:0.9em; font-family:def1; color:black; text-transform:uppercase; text-shadow: 2px 2px 2px rgba(0,0,0,0.3); z-index:5; 
+}
+
+#WeatherWrap{
+position:absolute; text-align:left; top:109px; left:40px; width:320px; height:568px; font-size:0.9em; font-family:def1; color:black; text-transform:uppercase; text-shadow: 2px 2px 2px rgba(0,0,0,0.3); z-index:5;   
+}
+	
+#temp{}
+    
+#condition{}
+
+
+   
+#icon{
+    position:absolute; top:68px; left:70px; width:180px; z-index:4;  
+}
+    

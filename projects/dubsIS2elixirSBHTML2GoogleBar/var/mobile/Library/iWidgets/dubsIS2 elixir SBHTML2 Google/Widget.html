@@ -1,0 +1,323 @@
+<!--
+
+Original work by /u/John_Macdonald
+
+
+You can edit and release as long as you keep the line above
+
+-->
+
+    <head>
+
+
+<meta name="viewport" content="width=device-
+width, minimum-scale=1.3, maximum-scale=1.3, 
+user-scalable=no"/>
+
+
+</head>
+
+
+<body>
+
+<style>
+
+
+@font-face {
+
+	font-family: 'Def';
+
+	src: url('Images/ColabL.otf');
+
+}
+
+
+  body{
+
+    margin:0;
+
+    padding:0;
+      
+    border: 0px solid blue;
+
+    position: relative;
+
+    width: 290px;
+      
+    height: 52px;
+
+  }
+
+  input{
+      
+    background-color:transparent;
+      
+    background-image: url(Images/google.png);
+
+    background-position: -5px -10.2px;
+
+    background-repeat: no-repeat;
+
+    background-size: 180px;
+
+    position: absolute;
+
+    border: 0px solid red;
+
+    font-family: 'Def';
+
+    font-size: 1.2em;
+
+    color:#eee;
+
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+
+    margin: 5px 10px;
+
+    height: 40px;
+
+    width: 270px;
+
+  }
+    
+    #BG
+
+  {   
+
+   position:absolute;
+      
+    width:320px;
+      
+    height:74px;
+      
+    top:-11px;
+      
+    left:-15px;
+      
+    z-index:-2;
+  }
+    
+   
+  a
+
+  {
+      
+   background-image: url(Images/glass.png);
+
+    background-position: 2px 2px;
+
+    background-repeat: no-repeat;
+
+    background-size: 40px;
+
+    position: absolute;
+      
+    margin:3px 221px;
+
+    height: 46px;
+
+    width: 46px;
+
+    visibility: hidden;
+
+  }
+
+
+  div#erase
+
+  {
+
+    position: absolute;
+
+    width: 24px;
+
+    height: 28px;
+
+    top: 5px;
+
+    right: 82px;
+
+    font-family: 'Def';
+
+    font-size:2em;
+
+    color:#6D2C2C;
+
+    text-shadow: 0px 1px 1px rgba(0,0,0,0.2);
+
+    text-align:center;
+
+    vertical-align:center;
+
+    visibility: hidden;
+
+   }
+
+     
+  #glassIdle
+
+  {
+    background-image: url(Images/glassIdle.png);
+
+    background-position: 2px 2px;
+
+    background-repeat: no-repeat;
+
+    background-size: 40px;
+
+    position: absolute;
+      
+    margin:3px 221px;
+
+    height: 46px;
+
+    width: 46px;
+
+    z-index:-1;
+
+  }
+
+    </style>
+
+    
+
+<div id="body">
+
+  <input id="input" onkeyup="on_keyup()" onfocus="on_focus()" onblur="on_blur()" type="text">
+
+  <a id="button" target="_blank" onclick="do_search()"></a>
+
+  <div id="erase" onclick="erase()">x</div>
+
+  <div id="glassIdle"></div>
+    
+<img id="BG" src="Images/BG.png"></div>
+	
+
+</div>
+
+
+</body>
+
+
+
+<script>
+
+  var input_elem = document.getElementById("input");
+
+  var erase_elem = document.getElementById("erase");
+
+  var button_elem = document.getElementById("button");
+
+  var glassIdle_elem = document.getElementById("glassIdle");
+  
+  function do_search()
+
+  {
+
+    var query = input_elem.value;
+
+    query = encodeURIComponent(query);
+
+    erase();
+
+    
+
+    var button_elem = document.getElementById("button");
+
+    button_elem.href = "http://www.google.com/search?q=" + query;
+
+  }
+
+  
+
+  function show_x() { erase_elem.style.visibility = "visible";}
+
+  function hide_x() { erase_elem.style.visibility = "hidden";}
+
+  function show_button() { button_elem.style.visibility = "visible";}
+
+  function hide_button() { button_elem.style.visibility = "hidden";}
+
+  function show_glassIdle() { glassIdle_elem.style.visibility = "visible";}
+
+  function hide_glassIdle() { glassIdle_elem.style.visibility = "hidden";}
+    
+ function show_google() { input_elem.style.backgroundImage = "url(Images/google.png)";}
+    
+ function hide_google() { input_elem.style.backgroundImage = "none";}
+    
+  
+  function on_keyup()
+
+  {
+
+    show_x();
+
+    if (input_elem.value == "")
+
+      hide_x();
+
+     show_button();
+
+     hide_glassIdle();
+      
+}
+
+
+  function on_focus()
+
+  {
+
+  glassIdle_elem.style.zIndex = "2";
+ 
+    hide_google();
+      
+  }
+
+
+  function on_blur()
+
+  {
+
+
+glassIdle_elem.style.zIndex = "-1";
+      
+     
+   if (input_elem.value == "")
+
+    {
+
+      hide_x();
+    show_google();
+
+
+    }
+
+  }
+
+
+  function erase()
+
+  {
+
+    input_elem.value = "";
+
+    erase_elem.style.visibility = "hidden";
+
+    hide_button();
+
+    show_glassIdle();
+      
+    show_google();
+      
+      }
+
+
+
+
+
+</script>
+
+
+

@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author:  dubailive 
+Depiction: https://dubailive.github.io/depictions/?p=com.dubailive.dubsIS2elixiriW2
+Description: dubsIS2elixiriW2
+Maintainer:  dubailive  <dubailive1@gmail.com>
+Name: dubsIS2elixiriW2
+Package: com.dubailive.dubsIS2elixiriW2
+Section: Widgets
+Dependency: com.eldwin.iwidgets, com.matchstic.infostats2
+Version: 1.0

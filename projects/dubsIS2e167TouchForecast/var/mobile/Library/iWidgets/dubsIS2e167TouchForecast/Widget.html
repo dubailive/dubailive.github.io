@@ -1,0 +1,1347 @@
+<!--Credit: IS2 Base Mod By D-Shin, IS2 by Matchistic, JuneiPhone for Library -->
+
+
+
+<html>
+
+
+
+<head>
+
+
+
+     <title>dubsIS2e167TouchForecast</title>
+
+
+
+	<meta charset="UTF-8">
+
+
+
+    <meta name="viewport" content="width=320, height=568, initial-scale=1.3, maximum-scale=1.3, user-scalable=no">
+
+
+
+	<style type="text/css">
+
+
+
+
+
+#body{
+
+
+
+padding: 0;
+
+
+
+margin: 0;
+
+
+
+font-family: 'rr';
+
+
+
+color:white;
+
+
+
+text-transform:capitalize;
+
+
+
+-webkit-user-select:none;
+
+
+
+}
+
+
+
+@font-face {
+
+
+
+font-family: 'rr';
+
+
+
+src: url(src/rr.ttf);
+
+
+
+}
+
+
+
+@font-face {
+
+
+
+font-family: 'zk';
+
+
+
+src: url(src/zk.ttf);
+
+
+
+}
+
+
+
+@font-face {
+
+
+
+font-family: 'ns';
+
+
+
+src: url(src/ns.ttf);
+
+
+
+}
+
+
+
+#hour{
+
+
+
+	position: absolute; width: 220px; top: 20px; left: 33px; text-align: left; color:dddddd; font-size: 45px; font-family: 'ns';  text-shadow: 2px 2px 2px rgba(0,0,0,1); z-index: 2;
+
+
+
+	}
+
+#minutes{
+
+
+
+	position: absolute; width: 220px; top: 20px; left: 50px; text-align: center; color:dddddd; font-size: 45px; font-family: 'ns';	text-shadow: 2px 2px 2px rgba(0,0,0,1); z-index: 2;
+
+
+
+	}
+
+
+
+#am{
+
+	position: absolute; width: 220px; top: 79px; left: 200px; font-size: 12px; text-align: left; text-transform: uppercase;z-index: 1;
+
+
+
+display:none;
+
+
+
+	}
+
+
+
+#date{
+
+
+
+	position: absolute; width: 220px; top: 74px; left: -16px; text-align: right; color:969796; font-size: 10px; z-index: 2;
+
+
+
+	}
+
+
+
+#city{
+
+
+
+	position: absolute; width: 220px; top: 74px; left: 16px; text-align: left; color:969796; font-size: 10px;text-shadow: none;
+
+
+
+z-index: 2;
+
+
+
+	}
+
+
+
+#temp{
+
+
+
+	position: absolute; width: 220px; top: 140px; left: 30px; text-align: left;  font-family: 'zk'; font-size: 45px; text-shadow: 2px 2px 2px rgba(0,0,0,1); z-index: 2;
+
+
+
+	}
+
+
+
+#condition{
+
+
+
+	position: absolute; width: 220px; top: 130px; left: 32px; color:c4c5c5; font-size: 11px; text-align: left; z-index: 2;
+
+
+
+	}
+
+
+
+
+
+#todayicon{
+
+
+
+	position: absolute; top: 32px; left: 35px; width: 150px; z-index: 2;
+
+
+
+	}
+
+
+
+#high{
+
+	position: absolute; width: 220px; left: 50px; top: 144px; text-align: center; color:969796; font-size: 10px; z-index: 2;
+
+	}
+
+
+
+#low{
+
+	position: absolute; width: 220px; left: 50px; top: 158px; text-align: center; color:969796; font-size: 10px; z-index: 2;
+
+	}
+
+
+
+#feelslike {
+
+
+
+	position: absolute; width: 220px; left: 57px; top: 172px; text-align: center; color:969796; font-size: 10px; z-index: 2;
+
+	}
+
+
+
+#day2{
+
+
+
+	position: absolute; left: -8px; top: 200px; height: 75px; width: 75px; font-size: 8px; color:565757; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#day3{
+
+
+
+	position: absolute; left: 32px; top: 200px; height: 75px; width: 75px; font-size: 8px; color:565757; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#day4{
+
+
+
+	position: absolute; left: 72px; top: 200px; height: 75px; width: 75px; font-size: 8px; color:565757; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#day5{
+
+
+
+	position: absolute; left: 112px; top: 200px; height: 75px; width: 75px; font-size: 8px; color:565757; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#day6{
+
+
+
+	position: absolute; left: 152px; top: 200px; height: 75px; width: 75px; font-size: 8px; color:565757; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#icon2{
+
+
+
+	position: absolute; left: 15px; top: 210px; width: 30px; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#icon3{
+
+
+
+	position: absolute; left: 55px; top: 210px; width: 30px; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#icon4{
+
+
+
+	position: absolute; left: 95px; top: 210px; width: 30px; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#icon5{
+
+
+
+	position: absolute; left: 135px; top: 210px; width: 30px; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#icon6{
+
+
+
+	position: absolute; left: 175px; top: 210px; width: 30px; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#temp2{
+
+
+
+	position: absolute; left: -5px; top: 242px; height: 75px; width: 75px; font-size: 8px; color:969796; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#temp3{
+
+
+
+	position: absolute; left: 33px; top: 242px; height: 75px; width: 75px; font-size: 8px; color:969796; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#temp4{
+
+
+
+	position: absolute; left: 74px; top: 242px; height: 75px; width: 75px; font-size: 8px; color:969796; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#temp5{
+
+
+
+	position: absolute; left: 113px; top: 242px; height: 75px; width: 75px; font-size: 8px; color:969796; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#temp6{
+
+
+
+	position: absolute; left: 153px; top: 242px; height: 75px; width: 75px; font-size: 8px; color:969796; text-align: center; z-index: 2;
+
+
+
+}
+
+
+
+#battState{
+
+
+
+	position: absolute; width: 220px; top: 12px; left: -35px; text-align: right; font-size: 8px; z-index: 1; display: none;
+
+
+
+	}
+
+
+
+
+
+#battLevel{
+
+
+
+	position: absolute; width: 220px; top: 301px; left: 0px; text-align: center; font-size: 8px; display: block; z-index: 1;
+
+
+
+	}
+
+
+
+#battStateImage{
+
+
+
+	position: absolute; width: 18px; top: 277px; left: 100px;display: block;
+
+
+
+	}
+
+
+
+
+
+#BatteryImage{
+
+
+
+	 position: absolute; width: 92px; top: 316px; left: 63px; display: block; z-index:2;
+
+
+
+	}
+
+
+
+#carrierWrap{
+
+
+
+	position: absolute; width: 220px; text-align: center; top: 2px; left: 0px; font-size: 8px; opacity:0.7; z-index: 2;
+
+
+
+	}
+
+	#Device{}
+
+
+
+	#dName{display:none;}
+
+
+
+	#PhoneCarrier{}
+
+
+
+	#OnlineStatus{}
+
+
+
+
+
+#deviceWrap{
+
+
+
+	position: absolute; width: 220px; text-align: center; top: 12px; left: 0px; font-size: 8px; opacity:0.7; z-index: 2;
+
+
+
+	}
+
+
+
+	#FreeSpace{}
+
+
+
+	#Firmware{}
+
+
+
+#touch {
+
+	position: absolute;
+
+	top: 62px;
+
+	left: 0px;
+
+	width: 220px;
+
+	height: 70px;
+
+	z-index: 1000;
+
+}
+
+#forecast{
+
+	position: absolute;
+
+	top: -174px;
+
+	left: 0px;
+
+	opacity: 1;
+
+	-webkit-transform: translateY(160px);
+
+	-webkit-transition: all 0.5s;
+
+}
+
+#clockimg{
+
+
+
+	position:absolute; top:-5px; left:0px; width:220px; z-index:1;
+
+	}
+
+#forecastimg{
+
+
+
+	position:absolute; top:6px; left:0px; width:220px; z-index:-1;
+
+	}
+
+#clockunderlayimg{
+
+
+
+	position:absolute; top:-2px; left:0px; width:220px; z-index:0;
+
+	}
+
+    </style>
+
+
+
+</head>
+
+
+
+<body onload="InfoStats.init()" onunload="InfoStats.unload()">
+
+
+
+
+
+	<div id="body">
+
+
+
+	<div id="carrierWrap">
+
+
+
+	<a id="Device">iphone 6s</a>
+
+
+
+	<a id="dName">Dubs iPhone </a> |
+
+
+
+	<a id="PhoneCarrier">Safaricom</a> |
+
+
+
+	<a id="OnlineStatus">Offline</a>
+
+
+
+	</div>
+
+
+
+
+
+	<div id="deviceWrap">
+
+
+
+	<a id="Firmware" >iOS: 9.0.2</a> |
+
+
+
+	<a id="FreeSpace">Free: 28,20gb</a> |
+
+
+
+	<a id="freeRam">Ram 598mb</a>
+
+
+
+	</div>
+
+
+
+
+
+	<div id="city">Nairobi</div>
+
+
+
+	<div id="am">AM</div>
+
+
+
+	<div id="hour">03</div>
+
+
+
+	<div id="minutes">23</div>
+
+
+
+	<div id="calendarWrap">
+
+
+
+	<div id="date">mon 04, aug</div>
+
+
+
+	<div id="battState">discharging</div>
+
+
+
+	<img id="todayicon" src="src/dubs/32.png"/>
+
+
+
+	<img id="clockimg" src="images/Clock.png"/>
+
+
+
+    <img id="clockunderlayimg" src="images/clockunderlay.png"/>
+
+
+
+
+
+
+
+ <!--Forecast-->
+
+<!-- Touch Section -->
+
+
+
+    <div id="touch" onclick="touch(event)"></div>
+
+
+
+    <div id="forecast" class="fade-out">
+
+
+
+	<div id="day2">Tuesday</div>
+
+
+
+	<div id="day3">Wednesday</div>
+
+
+
+	<div id="day4">Thursday</div>
+
+
+
+	<div id="day5">Friday</div>
+
+
+
+    <div id="day6">Saturday</div>
+
+
+
+
+
+	<img id="icon2" src="src/dubs1/32.png" />
+
+
+
+	<img id="icon3" src="src/dubs1/32.png" />
+
+
+
+	<img id="icon4" src="src/dubs1/32.png" />
+
+
+
+	<img id="icon5" src="src/dubs1/32.png" />
+
+
+
+    <img id="icon6" src="src/dubs1/32.png" />
+
+
+
+
+
+	<div id="temp2">70&deg;/50&deg;</div>
+
+
+
+	<div id="temp3">70&deg;/50&deg;</div>
+
+
+
+	<div id="temp4">70&deg;/50&deg;</div>
+
+
+
+	<div id="temp5">70&deg;/50&deg;</div>
+
+
+
+    <div id="temp6">70&deg;/50&deg;</div>
+
+
+
+    <div id="temp">25&deg;F</div>
+
+
+
+	<div id="feelslike">Feels:45&deg;F</div>
+
+
+
+	<div id="high">Hi: 22&deg;</div>
+
+
+
+	<div id="low">Lo: 08&deg;</div>
+
+
+
+	<div id="condition">Snow/Fog</div>
+
+
+
+    <div id="battLevel">77%</div>
+
+
+
+    <img id="forecastimg" src="images/Forecast.png"/>
+
+
+
+    <img id="BatteryImage" src="images/Battery/B10.png"/>
+
+
+
+	<img id="battStateImage" src="images/Signals/charging.png"/>
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <!--Forecast-END-->
+
+
+
+
+
+<script type="text/javascript" src="src/js/clock.js"></script>
+
+
+
+<script type="text/javascript" src="src/js/lang.js"></script>
+
+
+
+<script type="text/javascript" src="src/js/clockMain.js"></script>
+
+
+
+<script type="text/javascript" charset="utf-8" src="src/js/touch.js"></script>
+
+
+
+
+
+<!--IS2-->
+
+
+
+
+
+	<script type="text/cycript">
+
+
+
+
+
+	var InfoStats = {
+
+
+
+		refreshTime : wRefresh * 60 * 1000, //20 minutes (weather)
+
+
+
+		celsius : ([IS2Weather isCelsius]) ? 'C' : 'F',
+
+
+
+		updateDOM: function(){ //called on every update
+
+
+
+
+
+			document.getElementById('city').innerHTML = [IS2Weather currentLocation];
+
+
+
+			document.getElementById('temp').innerHTML = [IS2Weather currentTemperature] + '&deg;' + this.celsius;
+
+
+
+			document.getElementById('feelslike').innerHTML = "Feels: " + [IS2Weather currentlyFeelsLike] + '&deg;';
+
+
+
+			document.getElementById('high').innerHTML = "Hi: " + [IS2Weather highForCurrentDay] + '&deg;';
+
+
+
+			document.getElementById('low').innerHTML = "Lo: " + [IS2Weather lowForCurrentDay] + '&deg;';
+
+
+
+			document.getElementById('condition').innerHTML = [IS2Weather currentConditionAsString];
+
+
+
+			document.getElementById('todayicon').src = "src/dubs/" + [IS2Weather currentCondition] + ".png";
+
+
+
+		},
+
+
+
+
+
+		  updateDays: function(){
+
+
+
+      var dayArray = JSON.parse("" + [IS2Weather dayForecastsForCurrentLocationJSON]);
+
+
+
+      for (var i = 1; i < dayArray.length; i++) {
+
+
+
+	if(i <= 5){
+
+
+
+	  $$('day' + (i + 1)).innerHTML = translate[current].sday[dayArray[i].dayOfWeek - 1];
+
+
+
+	  $$('icon' + (i + 1)).src = "src/dubs1/" + dayArray[i].condition + ".png";
+
+
+
+	  $$('temp' + (i + 1)).innerHTML = dayArray[i].high + '&deg;/' + dayArray[i].low + '&deg;';
+
+
+
+	}
+
+  }
+
+
+
+    },
+
+
+
+		updateWeather: function(){ // update function (tells IS2 to update weather)
+
+
+
+		  [IS2Weather updateWeather];
+
+
+
+		  setTimeout(InfoStats.updateWeather, InfoStats.refreshTime);
+
+
+
+		},
+
+
+
+		init: function(){ //initialization
+
+
+
+
+
+		    [IS2Weather registerForWeatherUpdatesWithIdentifier:"com.dubailive.essenza167ForecastTouch" andCallback:^ void () {
+
+
+
+		      InfoStats.updateDOM();
+
+
+
+		    }];
+
+
+
+		  this.updateDOM();
+
+
+
+		  this.updateWeather();
+
+
+
+	  this.updateDays();
+
+
+
+		},
+
+
+
+		unload: function(){ //unload weather and callback
+
+
+
+		  [IS2Weather unregisterForUpdatesWithIdentifier:"com.dubailive.essenza167ForecastTouch"];
+
+
+
+		  return null;
+
+		}
+
+
+
+	};
+
+
+
+		var getBatteryPercent = function() { return [IS2System batteryPercent]; };
+
+
+
+		var getBattState = function() { return [IS2System batteryState]; };
+
+
+
+		var getBatteryState = function() { return [IS2System batteryStateAsInteger]; };
+
+
+
+		var getRam = function() { return [IS2System ramFree]; };
+
+
+
+		var deviceName = function() { return [[UIDevice currentDevice] name]; };
+
+
+
+		var getPhoneCarrier = function() { return [IS2Telephony phoneCarrier]; };
+
+
+
+		var getDeviceFreeSpace = function() { return [IS2System freeDiskSpaceInFormat:3]; };
+
+
+
+		var strFirmware = [[UIDevice currentDevice] systemVersion];
+
+
+
+		var getDeviceType = function() { return [IS2System deviceType]; };
+
+
+
+		var getDeviceModel = function() { return [IS2System deviceModel]; };
+
+
+
+    </script>
+
+
+
+
+
+<script type="text/javascript" charset="utf-8">
+
+
+
+		var arrDeviceModel = new Array();
+
+
+
+		var arrDeviceModelRealName = new Array();
+
+
+
+		var arrDeviceModel = ["iPhone1,1","iPhone1,2","iPhone2,1","iPhone3,1","iPhone3,3","iPhone4,1","iPhone5,1","iPhone5,2","iPhone5,3","iPhone5,4","iPhone6,1","iPhone6,2","iPhone7,1","iPhone7,2","iPhone8,1","iPhone8,2","iPhone8,4","iPad1,1","iPad2,1","iPad2,2", "iPad2,3", "iPad2,4", "iPad2,5", "iPad2,6", "iPad2,7", "iPad3,1", "iPad3,2", "iPad3,3", "iPad3,4", "iPad3,5", "iPad3,6", "iPad4,1", "iPad4,2", "iPad4,3", "iPad4,4", "iPad4,5", "iPad4,6", "iPad4,7", "iPad4,8", "iPad4,9", "iPad5,1", "iPad5,2", "iPad5,3", "iPad5,4", "iPad6,7", "iPad6,8", "iPod1,1", "iPod2,1", "iPod3,1", "iPod4,1", "iPod5,1", "iPod7,1"];
+
+
+
+
+
+
+
+		var arrDeviceModelRealName = ["iPhone", "iPhone 3G", "iPhone 3GS", "iPhone 4", "iPhone 4", "iPhone 4S", "iPhone 5", "iPhone 5", "iPhone 5c", "iPhone 5c", "iPhone 5s", "iPhone 5s", "iPhone 6 Plus", "iPhone 6", "iPhone 6s", "iPhone 6s Plus", "iPhone SE", "iPad", "iPad 2", "iPad 2", "iPad 2", "iPad 2", "iPad mini", "iPad mini", "iPad mini", "iPad", "iPad", "iPad", "iPad", "iPad", "iPad", "iPad Air", "iPad Air", "iPad Air", "iPad mini 2", "iPad mini 2", "iPad mini 2", "iPad mini 3", "iPad mini 3", "iPad mini 3", "iPad mini 4", "iPad mini 4", "iPad Air 2", "iPad Air 2", "iPad Pro", "iPad Pro", "iPod touch", "iPod touch", "iPod touch", "iPod touch", "iPod touch", "iPod touch"];
+
+
+
+
+
+
+
+<!--Original Text-->
+
+
+
+
+
+
+
+		//var arrDeviceModelRealName = ["iPhone", "iPhone 3G", "iPhone 3GS", "iPhone 4 (GSM)", "iPhone 4 (CDMA)", "iPhone 4S", "iPhone 5 (A1428)", "iPhone 5 (A1429)", "iPhone 5c (A1456/A1532)", "iPhone 5c (A1507/A1516/A1529)", "iPhone 5s (A1433/A1453)", "iPhone 5s (A1457/A1518/A1530)", "iPhone 6 Plus", "iPhone 6", "iPhone 6s", "iPhone 6s Plus", "iPhone SE", "iPad", "iPad 2 (Wi-Fi)", "iPad 2 (GSM)", "iPad 2 (CDMA)", "iPad 2 (Wi-Fi, revised)", "iPad mini (Wi-Fi)", "iPad mini (A1454)", "iPad mini (A1455)", "iPad (3rd gen, Wi-Fi)", "iPad (3rd gen, Wi-Fi+LTE Verizon)", "iPad (3rd gen, Wi-Fi+LTE AT&amp;T)", "iPad (4th gen, Wi-Fi)", "iPad (4th gen, A1459)", "iPad (4th gen, A1460)", "iPad Air (Wi-Fi)", "iPad Air (Wi-Fi+LTE)", "iPad Air (Rev)", "iPad mini 2 (Wi-Fi)", "iPad mini 2 (Wi-Fi+LTE)", "iPad mini 2 (Rev)", "iPad mini 3 (Wi-Fi)", "iPad mini 3 (A1600)", "iPad mini 3 (A1601)", "iPad mini 4 (Wi-Fi)", "iPad mini 4 (Wi-Fi+LTE)", "iPad Air 2 (Wi-Fi)", "iPad Air 2 (Wi-Fi+LTE)", "iPad Pro (Wi-Fi)", "iPad Pro (Wi-Fi+LTE)", "iPod touch", "iPod touch (2nd gen)", "iPod touch (3rd gen)", "iPod touch (4th gen)", "iPod touch (5th gen)", "iPod touch (6th gen)"];
+
+
+
+
+
+
+
+(function IS2stats(){
+
+
+
+
+
+// use our navigator object to check online status, no need to tax the system;
+
+
+
+		var strOnlineStatus = (navigator.onLine) ? "ONLINE":"OFFLINE";
+
+
+
+		document.getElementById('OnlineStatus').style.color = (navigator.onLine) ? "77ad73":"a43b3b";
+
+
+
+		document.getElementById('OnlineStatus').innerHTML = "" + strOnlineStatus;
+
+
+
+		document.getElementById("freeRam").innerHTML = "Ram:" + getRam() + "mb";
+
+
+
+		document.getElementById("dName").innerHTML = "" + deviceName() + " ";
+
+
+
+		document.getElementById('PhoneCarrier').innerHTML = "" + getPhoneCarrier();
+
+
+
+		document.getElementById('FreeSpace').innerHTML = "Free: " + getDeviceFreeSpace().toFixed(2) + " GB";
+
+
+
+		document.getElementById('Firmware').innerHTML = "iOS: " + strFirmware;
+
+
+
+		document.getElementById('Device').innerHTML = "" + getDeviceModelRealName();
+
+
+
+		document.getElementById("battLevel").innerHTML = getBatteryPercent() + "%";
+
+
+
+
+
+
+
+		var Level = getBatteryPercent(), batteryImage;
+
+
+
+		if( Level >  0 && Level <=   10 ) batteryImage="images/Battery/B1.png";
+
+
+
+		if( Level >  10 && Level <=  20 ) batteryImage="images/Battery/B2.png";
+
+
+
+		if( Level >  20 && Level <=  30 ) batteryImage="images/Battery/B3.png";
+
+
+
+		if( Level > 30 && Level <=  40 ) batteryImage="images/Battery/B4.png";
+
+
+
+		if( Level > 40 && Level <=  50 ) batteryImage="images/Battery/B5.png";
+
+
+
+		if( Level > 50 && Level <=  60 ) batteryImage="images/Battery/B6.png";
+
+
+
+		if( Level > 60 && Level <=  70 ) batteryImage="images/Battery/B7.png";
+
+
+
+		if( Level > 70 && Level <=  80 ) batteryImage="images/Battery/B8.png";
+
+
+
+		if( Level > 80 && Level <=  90 ) batteryImage="images/Battery/B9.png";
+
+
+
+		if( Level > 90 && Level <=  100 ) batteryImage="images/Battery/B10.png";
+
+
+
+
+
+		document.getElementById("BatteryImage").src=batteryImage;
+
+
+
+		document.getElementById('battState').innerHTML =  getBattState();
+
+
+
+
+
+//Battery State//
+
+
+
+
+
+	if (getBatteryState() == 1){
+
+
+
+	document.getElementById("battState").style.color = "lightblue";
+
+
+
+	document.getElementById("battStateImage").src = "images/Signals/discharging.png";
+
+
+
+
+
+	}else{
+
+
+
+	document.getElementById("battState").style.color = "#e35b2a";
+
+
+
+	document.getElementById("battStateImage").src = "images/Signals/charging.png";
+
+
+
+	}
+
+
+
+
+
+setTimeout(IS2stats, 2500);
+
+
+
+    }());
+
+
+
+
+
+function getiOSVersion()
+
+
+
+{
+
+	//var striOSVersion= parseFloat(String(window.navigator.userAgent.match(/[0-9]_[0-9]/)).split('_')[0]+'.'+String(window.navigator.userAgent.match(/[0-9]_[0-9]/)).split('_')[1]);
+
+
+
+
+
+
+
+	var striOSVersion = parseFloat(('' + (/CPU.*OS ([0-9_]{1,5})|(CPU like).*AppleWebKit.*Mobile/i.exec(navigator.userAgent) || [0,''])[1]).replace('undefined', '3_2').replace('_', '.').replace('_', '')) || false;
+
+
+
+	return striOSVersion;
+
+
+
+}
+
+
+
+
+
+
+
+function setDeviceInfo()
+
+
+
+{}
+
+
+
+function getDeviceModelRealName()
+
+
+
+{
+
+
+
+	var intIndex = arrDeviceModel.indexOf(getDeviceModel().trim());
+
+
+
+	if (intIndex > 0)
+
+
+
+	{
+
+
+
+		return arrDeviceModelRealName[intIndex];
+
+
+
+	}
+
+
+
+	else {
+
+
+
+		return intIndex;
+
+
+
+	}
+
+
+
+}
+
+
+
+</script>
+
+
+
+
+
+   </div>
+
+
+
+</body>
+
+
+
+</html>

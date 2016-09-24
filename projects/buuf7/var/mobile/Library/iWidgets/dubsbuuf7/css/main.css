@@ -1,0 +1,136 @@
+
+	  html{
+	position:absolute;
+	margin:0px 0px;
+	padding: 0;
+	font-family: def;
+	color:white;
+	clip:rect(0px,320px,568px,0px);
+}
+
+
+@font-face {
+
+	font-family: def;
+
+	src: url(../Fonts/tx.otf);
+
+}
+
+@font-face {
+
+	font-family: def1;
+
+	src: url(../Fonts/uw.ttf);
+
+}  
+
+@font-face {
+
+	font-family: def2;
+
+	src: url(../Fonts/al.ttf);
+
+}  
+
+@font-face {
+
+	font-family: def3;
+
+	src: url(../Fonts/sr.ttf);
+
+}
+
+#BatteryWrap{
+    position:absolute;
+    margin:0px 0px;
+}
+   
+#LevelDisplay{
+display:normal;
+position: absolute;
+width:320px;
+height:50px;
+top:60px;
+left: -26px;
+text-align:right;
+font-size:0.7em;
+z-index:4;
+font-family: def2;
+color:yellow;
+opacity:0.8;
+}	 
+	
+#StateDisplay{
+display:none;
+position: absolute;
+width:320px;
+height:50px;
+top:97px;
+left: -14px;
+text-align:right;
+font-size:0.7em;
+color: rgba(188,173,124,1);
+}
+    
+#BatteryImage{
+position: absolute;
+top:-18px;
+left:-8px;
+width:320px;
+height:200px;
+z-index:-3;
+
+}
+	   
+
+
+  
+#tod{
+position:absolute; text-align:center; top:89px; left:5px; width:320px; height:568px; font-size:1.3em; text-transform:uppercase;  color:191d15; opacity:0.7; z-index:2; 
+}
+
+#ClockWrap{
+position:absolute; text-align:left; top:70px; left:29px; width:320px; height:568px; font-family: def1; font-size:3.7em; text-transform:uppercase;  color:2a381d; z-index:1; 
+}
+
+#hour{}    
+#minute{}
+
+
+
+#month{
+position:absolute; text-align:center; top:100px; left:59px; width:320px; height:568px; font-size:1.3em; color:191d15; opacity:0.7; text-transform:uppercase;  z-index:3;
+}  
+
+
+#date{
+position:absolute; text-align:right; top:70px; left:-29px; width:320px; height:568px; font-family: def1; font-size:3.7em; text-transform:uppercase;  color:2a381d; z-index:1; 
+
+} 
+
+       
+#DateWrap{
+      position:absolute; text-align:center; top:78px; left:110px; width:320px; font-family: def1; height:568px; font-size:1.2em; text-transform:capitalise; text-shadow: 1px 1px 1px rgba(0,0,0,0.2); z-index:2;
+}
+	
+#today{
+position:absolute; text-align:left; top:-49px; left:-97px; width:320px; font-family: def; height:568px; font-size:1.3em; text-transform:capitalise; text-shadow: 8px 7px 3px rgba(0,0,0,0.6); z-index:2;
+display:none;}
+	
+#year{display:none;}
+
+#WeatherWrap{
+    position:absolute; text-align:center; top:131px; left:0px; width:320px; height:568px; font-family: def2; font-size:0.9em; color:2a381d;  z-index:4; opacity:0.8; display:;
+}
+
+#temp{} 	 
+    
+#condition{}	
+
+#city{}
+   
+#icon{
+    position:absolute; top:0px; left:230px; width:60px; z-index:-3; 
+}
+    

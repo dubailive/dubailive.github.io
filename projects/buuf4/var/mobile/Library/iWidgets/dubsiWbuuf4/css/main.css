@@ -1,0 +1,164 @@
+
+	  html{
+	position:absolute;
+	margin:0px 0px;
+	padding: 0;
+	font-family: def;
+	color: white;
+	text-align:center;
+	text-shadow: 1px 0px 1px rgba(0,0,0,0.9);
+    
+}
+
+
+@font-face {
+
+	font-family: def;
+
+	src: url(../Fonts/ast.ttf);
+
+}
+    
+
+#data{
+	position: absolute;
+	width:320px;
+	text-align:left;
+	top:14px;
+	left:8px;
+	font-family: def4;
+	font-size:0.9em;
+	z-index:5;
+	display:none;
+} 
+
+#name{
+	position: absolute;
+	width:320px;
+	text-align:left;
+	top:6px;
+	left:28.5px;
+	color:white;
+	font-family: def1;
+	font-size:1em;
+	display:none;
+	
+} 
+		
+#battLevel{
+	position: absolute;
+	text-align:center;
+	width:320px;
+	top:24px;
+	left:0px;
+	
+	font-size:0.85em;
+} 
+
+#battState{
+	position: absolute;
+	width:320px;
+	margin:200px 0px;
+	color: white;
+	font-size:1.5em;
+	display:none;
+}
+
+#BatteryImage{
+	position: absolute;
+	width:300px;
+	top:29px;
+	left:10px;
+	z-index:5;
+	display:none;
+}
+
+#freeRam{
+	position: absolute;
+	width:320px;
+	text-align:right;
+	top:32px;
+	left:-15px;
+	font-family: def;
+	font-size:0.7em;
+	display:none;
+}
+
+#dName{
+	position: absolute;
+	width:320px;
+	text-align:left;
+	top:33px;
+	left:12px;
+	font-family: def3;
+	font-size:0.5em;
+	display:none;
+}
+
+#FramImage{
+	position: absolute;
+	width:96px;
+	top:48px;
+	left:212px;
+	display:none;
+}
+
+
+#WifiImage {
+	position: absolute;
+	width:45px;
+	top:15px;
+	left:225px;
+}
+
+
+
+#CellImage {
+	position: absolute;
+	width:70px;
+	top:15px;
+	left:50px;
+}
+
+#overlay{position:absolute; top:11px; left:0px; width:320px; z-index:-6; }
+
+
+  
+#ClockWrap{
+position:absolute; text-align:left; top:71px; left:115px; width:320px; height:568px; font-size:2em;  display:;
+}
+   
+#hour{}
+#minute{}
+#tod{font-size:.5em; display:none;}
+    
+       
+#today{
+      position:absolute; text-align:left; top:178px; left:115px; width:320px; height:568px; font-size:2em;  z-index:3; display:;
+    
+}	 
+	  
+#DateWrap{
+      position:absolute; text-align:left; top:124px; left:115px; width:320px; height:568px; font-size:2em;  z-index:3; display:;
+    
+}	 
+#date{}
+	
+#month{}
+    
+#year{font-size:0.8em; display:none;}
+	
+#WeatherWrap{
+    position:absolute; text-align:left; top:117px; left:215px; width:320px; height:568px; font-size:0.8em; z-index:3;
+	  
+}
+    
+#temp{}
+    
+#condition{display:;}
+
+#city{display:none}
+   
+#icon{
+    position:absolute; top:60px; left:200px; width:60px; z-index:2;
+}

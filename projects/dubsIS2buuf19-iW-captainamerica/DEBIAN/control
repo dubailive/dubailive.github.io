@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author:  dubailive 
+Depiction: https://dubailive.github.io/depictions/?p=com.dubailive.dubsIS2buuf19-iW-captainamerica
+Description: dubsIS2buuf19-iW-captainamerica
+Maintainer:  dubailive  <dubailive1@gmail.com>
+Name: dubsIS2buuf19-iW-captainamerica
+Package: com.dubailive.dubsIS2buuf19-iW-captainamerica
+Section: Widgets
+Dependency: com.eldwin.iwidgets, com.matchstic.infostats2
+Version: 1.0

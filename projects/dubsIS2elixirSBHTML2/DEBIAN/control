@@ -7,4 +7,4 @@ Name: dubsIS2elixirSBHTML2
 Package: com.dubailive.dubsIS2elixirSBHTML2
 Section: SBHTML
 Dependency: com.matchstic.infostats2, com.matchstic.XenHTML
-Version: 1.0
+Version: 1.0.1

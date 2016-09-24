@@ -1,0 +1,10 @@
+Architecture: iphoneos-arm
+Author:  dubailive 
+Depiction: https://dubailive.github.io/depictions/?p=com.dubailive.dubsIS2elixirSBHTML2GoogleBar
+Description: dubsIS2elixirSBHTML2GoogleBar
+Maintainer:  dubailive  <dubailive1@gmail.com>
+Name: dubsIS2elixirSBHTML2GoogleBar
+Package: com.dubailive.dubsIS2elixirSBHTML2GoogleBar
+Section: Widgets
+Dependency: com.eldwin.iwidgets, com.matchstic.infostats2
+Version: 1.0

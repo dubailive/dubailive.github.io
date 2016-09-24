@@ -1,0 +1,28 @@
+<package>
+	<id>com.dubailive.dubsIS2elixirSBHTML2</id>
+	<name>dubsIS2elixirSBHTML2</name>
+	<version>1.0.</version>
+	<compatibility>
+		<firmware>
+			<miniOS>7.0</miniOS>
+      <maxiOS>9.3.3</maxiOS>
+		</firmware>
+	</compatibility>
+	<dependencies>
+		<package>com.matchstic.infostats2,com.matchstic.XenHTML</package>
+	</dependencies>
+	<descriptionlist>
+		<description>dubsIS2elixirSBHTML2</description>
+	</descriptionlist>
+	<screenshots>
+		<screenshot>
+			<description>dubsIS2elixirSBHTML2</description>
+			<image>ss.jpg</image>
+		</screenshot>
+	</screenshots>
+	<changelog>
+		<change>Initial Release</change>
+	</changelog>
+  <links>
+</links>
+</package>

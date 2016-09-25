@@ -45,3 +45,5 @@ dpkg-deb -bZgzip projects/dubsIS2elixiriW2 debs
 dpkg-deb -bZgzip projects/dubsessenza146 debs
 dpkg-deb -bZgzip projects/dubsIS2elixirSBHTML2 debs
 dpkg-deb -bZgzip projects/dubsIS2elixirSBHTML2GoogleBar debs
+dpkg-deb -bZgzip projects/dubsIS2essenza176SBHTMLblue debs
+dpkg-deb -bZgzip projects/dubsIS2essenza176SBHTMLpurple debs
